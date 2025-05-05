@@ -719,12 +719,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2012;Lagos;Cursos Tecnológicos e Profissionais;10º ano;16.0;586;886.5
 2012;Lagos;Cursos Tecnológicos e Profissionais;11º ano;6.8;586;886.5
 2012;Lagos;Cursos Tecnológicos e Profissionais;12º ano;58.0;586;886.5
-2012;Lajes das Flores;Cursos gerais;10º ano;;0;
-2012;Lajes das Flores;Cursos gerais;11º ano;;0;
-2012;Lajes das Flores;Cursos gerais;12º ano;;0;
-2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;
-2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;
-2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;
+2012;Lajes das Flores;Cursos gerais;10º ano;;;
+2012;Lajes das Flores;Cursos gerais;11º ano;;;
+2012;Lajes das Flores;Cursos gerais;12º ano;;;
+2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;
+2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;
+2012;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;
 2012;Lajes do Pico;Cursos gerais;10º ano;25.7;81;
 2012;Lajes do Pico;Cursos gerais;11º ano;5.7;81;
 2012;Lajes do Pico;Cursos gerais;12º ano;50.0;81;
@@ -2339,12 +2339,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2013;Coruche;Cursos Tecnológicos e Profissionais;10º ano;5.0;246;954.5
 2013;Coruche;Cursos Tecnológicos e Profissionais;11º ano;5.9;246;954.5
 2013;Coruche;Cursos Tecnológicos e Profissionais;12º ano;11.9;246;954.5
-2013;Corvo;Cursos gerais;10º ano;;0;
-2013;Corvo;Cursos gerais;11º ano;;0;
-2013;Corvo;Cursos gerais;12º ano;;0;
-2013;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;0;
-2013;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;0;
-2013;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;0;
+2013;Corvo;Cursos gerais;10º ano;;;
+2013;Corvo;Cursos gerais;11º ano;;;
+2013;Corvo;Cursos gerais;12º ano;;;
+2013;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;;
+2013;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;;
+2013;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;;
 2013;Covilhã;Cursos gerais;10º ano;11.8;720;854.5
 2013;Covilhã;Cursos gerais;11º ano;13.1;720;854.5
 2013;Covilhã;Cursos gerais;12º ano;32.2;720;854.5
@@ -2567,12 +2567,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2013;Lagos;Cursos Tecnológicos e Profissionais;10º ano;17.7;470;866.2
 2013;Lagos;Cursos Tecnológicos e Profissionais;11º ano;12.5;470;866.2
 2013;Lagos;Cursos Tecnológicos e Profissionais;12º ano;51.9;470;866.2
-2013;Lajes das Flores;Cursos gerais;10º ano;;0;
-2013;Lajes das Flores;Cursos gerais;11º ano;;0;
-2013;Lajes das Flores;Cursos gerais;12º ano;;0;
-2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;
-2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;
-2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;
+2013;Lajes das Flores;Cursos gerais;10º ano;;;
+2013;Lajes das Flores;Cursos gerais;11º ano;;;
+2013;Lajes das Flores;Cursos gerais;12º ano;;;
+2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;
+2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;
+2013;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;
 2013;Lajes do Pico;Cursos gerais;10º ano;12.5;57;
 2013;Lajes do Pico;Cursos gerais;11º ano;16.7;57;
 2013;Lajes do Pico;Cursos gerais;12º ano;31.8;57;
@@ -3689,12 +3689,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2013;Vizela;Cursos Tecnológicos e Profissionais;10º ano;6.1;106;742.6
 2013;Vizela;Cursos Tecnológicos e Profissionais;11º ano;0.0;106;742.6
 2013;Vizela;Cursos Tecnológicos e Profissionais;12º ano;17.3;106;742.6
-2013;Vouzela;Cursos gerais;10º ano;7.8;0;813.9
-2013;Vouzela;Cursos gerais;11º ano;19.6;0;813.9
-2013;Vouzela;Cursos gerais;12º ano;37.0;0;813.9
-2013;Vouzela;Cursos Tecnológicos e Profissionais;10º ano;11.5;0;813.9
-2013;Vouzela;Cursos Tecnológicos e Profissionais;11º ano;3.3;0;813.9
-2013;Vouzela;Cursos Tecnológicos e Profissionais;12º ano;21.7;0;813.9
+2013;Vouzela;Cursos gerais;10º ano;7.8;;813.9
+2013;Vouzela;Cursos gerais;11º ano;19.6;;813.9
+2013;Vouzela;Cursos gerais;12º ano;37.0;;813.9
+2013;Vouzela;Cursos Tecnológicos e Profissionais;10º ano;11.5;;813.9
+2013;Vouzela;Cursos Tecnológicos e Profissionais;11º ano;3.3;;813.9
+2013;Vouzela;Cursos Tecnológicos e Profissionais;12º ano;21.7;;813.9
 2014;Abrantes;Cursos gerais;10º ano;13.9;505;1016.3
 2014;Abrantes;Cursos gerais;11º ano;14.5;505;1016.3
 2014;Abrantes;Cursos gerais;12º ano;31.3;505;1016.3
@@ -4751,12 +4751,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2014;Oeiras;Cursos Tecnológicos e Profissionais;10º ano;8.1;994;1673.9
 2014;Oeiras;Cursos Tecnológicos e Profissionais;11º ano;6.7;994;1673.9
 2014;Oeiras;Cursos Tecnológicos e Profissionais;12º ano;28.5;994;1673.9
-2014;Oleiros;Cursos gerais;10º ano;28.6;0;819.2
-2014;Oleiros;Cursos gerais;11º ano;12.5;0;819.2
-2014;Oleiros;Cursos gerais;12º ano;8.3;0;819.2
-2014;Oleiros;Cursos Tecnológicos e Profissionais;10º ano;;0;819.2
-2014;Oleiros;Cursos Tecnológicos e Profissionais;11º ano;0.0;0;819.2
-2014;Oleiros;Cursos Tecnológicos e Profissionais;12º ano;;0;819.2
+2014;Oleiros;Cursos gerais;10º ano;28.6;;819.2
+2014;Oleiros;Cursos gerais;11º ano;12.5;;819.2
+2014;Oleiros;Cursos gerais;12º ano;8.3;;819.2
+2014;Oleiros;Cursos Tecnológicos e Profissionais;10º ano;;;819.2
+2014;Oleiros;Cursos Tecnológicos e Profissionais;11º ano;0.0;;819.2
+2014;Oleiros;Cursos Tecnológicos e Profissionais;12º ano;;;819.2
 2014;Olhão;Cursos gerais;10º ano;23.3;497;884.7
 2014;Olhão;Cursos gerais;11º ano;17.2;497;884.7
 2014;Olhão;Cursos gerais;12º ano;43.1;497;884.7
@@ -5495,12 +5495,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2014;Vila Real de Santo António;Cursos Tecnológicos e Profissionais;10º ano;5.1;271;858.8
 2014;Vila Real de Santo António;Cursos Tecnológicos e Profissionais;11º ano;8.6;271;858.8
 2014;Vila Real de Santo António;Cursos Tecnológicos e Profissionais;12º ano;57.3;271;858.8
-2014;Vila Velha de Ródão;Cursos gerais;10º ano;;0;1141.5
-2014;Vila Velha de Ródão;Cursos gerais;11º ano;;0;1141.5
-2014;Vila Velha de Ródão;Cursos gerais;12º ano;;0;1141.5
-2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;10º ano;;0;1141.5
-2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;11º ano;;0;1141.5
-2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;12º ano;;0;1141.5
+2014;Vila Velha de Ródão;Cursos gerais;10º ano;;;1141.5
+2014;Vila Velha de Ródão;Cursos gerais;11º ano;;;1141.5
+2014;Vila Velha de Ródão;Cursos gerais;12º ano;;;1141.5
+2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;10º ano;;;1141.5
+2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;11º ano;;;1141.5
+2014;Vila Velha de Ródão;Cursos Tecnológicos e Profissionais;12º ano;;;1141.5
 2014;Vila Verde;Cursos gerais;10º ano;23.4;110;798.5
 2014;Vila Verde;Cursos gerais;11º ano;12.3;110;798.5
 2014;Vila Verde;Cursos gerais;12º ano;40.5;110;798.5
@@ -7451,12 +7451,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2016;Alcochete;Cursos Tecnológicos e Profissionais;10º ano;1.2;152;2255.0
 2016;Alcochete;Cursos Tecnológicos e Profissionais;11º ano;1.9;152;2255.0
 2016;Alcochete;Cursos Tecnológicos e Profissionais;12º ano;90.0;152;2255.0
-2016;Alcoutim;Cursos gerais;10º ano;;0;829.7
-2016;Alcoutim;Cursos gerais;11º ano;;0;829.7
-2016;Alcoutim;Cursos gerais;12º ano;;0;829.7
-2016;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;0;829.7
-2016;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;0;829.7
-2016;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;0;829.7
+2016;Alcoutim;Cursos gerais;10º ano;;;829.7
+2016;Alcoutim;Cursos gerais;11º ano;;;829.7
+2016;Alcoutim;Cursos gerais;12º ano;;;829.7
+2016;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;;829.7
+2016;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;;829.7
+2016;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;;829.7
 2016;Alenquer;Cursos gerais;10º ano;23.1;180;1117.6
 2016;Alenquer;Cursos gerais;11º ano;12.6;180;1117.6
 2016;Alenquer;Cursos gerais;12º ano;28.5;180;1117.6
@@ -8465,12 +8465,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2016;Oliveira de Azeméis;Cursos Tecnológicos e Profissionais;10º ano;2.4;303;1019.6
 2016;Oliveira de Azeméis;Cursos Tecnológicos e Profissionais;11º ano;3.7;303;1019.6
 2016;Oliveira de Azeméis;Cursos Tecnológicos e Profissionais;12º ano;30.2;303;1019.6
-2016;Oliveira de Frades;Cursos gerais;10º ano;4.3;0;991.9
-2016;Oliveira de Frades;Cursos gerais;11º ano;3.6;0;991.9
-2016;Oliveira de Frades;Cursos gerais;12º ano;30.4;0;991.9
-2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;10º ano;0.0;0;991.9
-2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;11º ano;11.5;0;991.9
-2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;12º ano;41.0;0;991.9
+2016;Oliveira de Frades;Cursos gerais;10º ano;4.3;;991.9
+2016;Oliveira de Frades;Cursos gerais;11º ano;3.6;;991.9
+2016;Oliveira de Frades;Cursos gerais;12º ano;30.4;;991.9
+2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;10º ano;0.0;;991.9
+2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;11º ano;11.5;;991.9
+2016;Oliveira de Frades;Cursos Tecnológicos e Profissionais;12º ano;41.0;;991.9
 2016;Oliveira do Bairro;Cursos gerais;10º ano;10.0;214;947.8
 2016;Oliveira do Bairro;Cursos gerais;11º ano;1.3;214;947.8
 2016;Oliveira do Bairro;Cursos gerais;12º ano;22.2;214;947.8
@@ -9095,12 +9095,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2016;Vila de Rei;Cursos Tecnológicos e Profissionais;10º ano;0.0;3;760.3
 2016;Vila de Rei;Cursos Tecnológicos e Profissionais;11º ano;;3;760.3
 2016;Vila de Rei;Cursos Tecnológicos e Profissionais;12º ano;;3;760.3
-2016;Vila do Bispo;Cursos gerais;10º ano;;0;903.5
-2016;Vila do Bispo;Cursos gerais;11º ano;;0;903.5
-2016;Vila do Bispo;Cursos gerais;12º ano;;0;903.5
-2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;0;903.5
-2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;0;903.5
-2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;0;903.5
+2016;Vila do Bispo;Cursos gerais;10º ano;;;903.5
+2016;Vila do Bispo;Cursos gerais;11º ano;;;903.5
+2016;Vila do Bispo;Cursos gerais;12º ano;;;903.5
+2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;;903.5
+2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;;903.5
+2016;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;;903.5
 2016;Vila do Conde;Cursos gerais;10º ano;16.6;485;1028.3
 2016;Vila do Conde;Cursos gerais;11º ano;11.8;485;1028.3
 2016;Vila do Conde;Cursos gerais;12º ano;38.6;485;1028.3
@@ -9233,12 +9233,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2016;Vizela;Cursos Tecnológicos e Profissionais;10º ano;10.6;36;771.2
 2016;Vizela;Cursos Tecnológicos e Profissionais;11º ano;5.6;36;771.2
 2016;Vizela;Cursos Tecnológicos e Profissionais;12º ano;26.9;36;771.2
-2016;Vouzela;Cursos gerais;10º ano;13.0;0;832.0
-2016;Vouzela;Cursos gerais;11º ano;7.7;0;832.0
-2016;Vouzela;Cursos gerais;12º ano;35.3;0;832.0
-2016;Vouzela;Cursos Tecnológicos e Profissionais;10º ano;5.9;0;832.0
-2016;Vouzela;Cursos Tecnológicos e Profissionais;11º ano;3.2;0;832.0
-2016;Vouzela;Cursos Tecnológicos e Profissionais;12º ano;8.6;0;832.0
+2016;Vouzela;Cursos gerais;10º ano;13.0;;832.0
+2016;Vouzela;Cursos gerais;11º ano;7.7;;832.0
+2016;Vouzela;Cursos gerais;12º ano;35.3;;832.0
+2016;Vouzela;Cursos Tecnológicos e Profissionais;10º ano;5.9;;832.0
+2016;Vouzela;Cursos Tecnológicos e Profissionais;11º ano;3.2;;832.0
+2016;Vouzela;Cursos Tecnológicos e Profissionais;12º ano;8.6;;832.0
 2017;Abrantes;Cursos gerais;10º ano;10.3;510;1048.2
 2017;Abrantes;Cursos gerais;11º ano;5.3;510;1048.2
 2017;Abrantes;Cursos gerais;12º ano;29.3;510;1048.2
@@ -9731,12 +9731,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2017;Coruche;Cursos Tecnológicos e Profissionais;10º ano;12.6;252;986.1
 2017;Coruche;Cursos Tecnológicos e Profissionais;11º ano;8.1;252;986.1
 2017;Coruche;Cursos Tecnológicos e Profissionais;12º ano;1.9;252;986.1
-2017;Corvo;Cursos gerais;10º ano;50.0;0;991.9
-2017;Corvo;Cursos gerais;11º ano;0.0;0;991.9
-2017;Corvo;Cursos gerais;12º ano;50.0;0;991.9
-2017;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;0;991.9
-2017;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;0;991.9
-2017;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;0;991.9
+2017;Corvo;Cursos gerais;10º ano;50.0;;991.9
+2017;Corvo;Cursos gerais;11º ano;0.0;;991.9
+2017;Corvo;Cursos gerais;12º ano;50.0;;991.9
+2017;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;;991.9
+2017;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;;991.9
+2017;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;;991.9
 2017;Covilhã;Cursos gerais;10º ano;16.5;600;920.9
 2017;Covilhã;Cursos gerais;11º ano;3.7;600;920.9
 2017;Covilhã;Cursos gerais;12º ano;28.2;600;920.9
@@ -9959,12 +9959,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2017;Lagos;Cursos Tecnológicos e Profissionais;10º ano;11.9;154;906.9
 2017;Lagos;Cursos Tecnológicos e Profissionais;11º ano;6.1;154;906.9
 2017;Lagos;Cursos Tecnológicos e Profissionais;12º ano;43.2;154;906.9
-2017;Lajes das Flores;Cursos gerais;10º ano;;0;1004.5
-2017;Lajes das Flores;Cursos gerais;11º ano;;0;1004.5
-2017;Lajes das Flores;Cursos gerais;12º ano;;0;1004.5
-2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;1004.5
-2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;1004.5
-2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;1004.5
+2017;Lajes das Flores;Cursos gerais;10º ano;;;1004.5
+2017;Lajes das Flores;Cursos gerais;11º ano;;;1004.5
+2017;Lajes das Flores;Cursos gerais;12º ano;;;1004.5
+2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;1004.5
+2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;1004.5
+2017;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;1004.5
 2017;Lajes do Pico;Cursos gerais;10º ano;10.7;48;797.2
 2017;Lajes do Pico;Cursos gerais;11º ano;10.8;48;797.2
 2017;Lajes do Pico;Cursos gerais;12º ano;51.6;48;797.2
@@ -11147,12 +11147,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Alcochete;Cursos Tecnológicos e Profissionais;10º ano;5.6;152;2153.3
 2018;Alcochete;Cursos Tecnológicos e Profissionais;11º ano;0.0;152;2153.3
 2018;Alcochete;Cursos Tecnológicos e Profissionais;12º ano;33.9;152;2153.3
-2018;Alcoutim;Cursos gerais;10º ano;;0;819.3
-2018;Alcoutim;Cursos gerais;11º ano;;0;819.3
-2018;Alcoutim;Cursos gerais;12º ano;;0;819.3
-2018;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;0;819.3
-2018;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;0;819.3
-2018;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;0;819.3
+2018;Alcoutim;Cursos gerais;10º ano;;;819.3
+2018;Alcoutim;Cursos gerais;11º ano;;;819.3
+2018;Alcoutim;Cursos gerais;12º ano;;;819.3
+2018;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;;819.3
+2018;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;;819.3
+2018;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;;819.3
 2018;Alenquer;Cursos gerais;10º ano;23.0;276;1131.8
 2018;Alenquer;Cursos gerais;11º ano;14.9;276;1131.8
 2018;Alenquer;Cursos gerais;12º ano;34.3;276;1131.8
@@ -11579,12 +11579,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Coruche;Cursos Tecnológicos e Profissionais;10º ano;14.3;281;1001.8
 2018;Coruche;Cursos Tecnológicos e Profissionais;11º ano;25.4;281;1001.8
 2018;Coruche;Cursos Tecnológicos e Profissionais;12º ano;11.8;281;1001.8
-2018;Corvo;Cursos gerais;10º ano;20.0;0;1444.7
-2018;Corvo;Cursos gerais;11º ano;;0;1444.7
-2018;Corvo;Cursos gerais;12º ano;20.0;0;1444.7
-2018;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;0;1444.7
-2018;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;0;1444.7
-2018;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;0;1444.7
+2018;Corvo;Cursos gerais;10º ano;20.0;;1444.7
+2018;Corvo;Cursos gerais;11º ano;;;1444.7
+2018;Corvo;Cursos gerais;12º ano;20.0;;1444.7
+2018;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;;1444.7
+2018;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;;1444.7
+2018;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;;1444.7
 2018;Covilhã;Cursos gerais;10º ano;12.0;581;943.4
 2018;Covilhã;Cursos gerais;11º ano;13.1;581;943.4
 2018;Covilhã;Cursos gerais;12º ano;26.1;581;943.4
@@ -11807,12 +11807,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Lagos;Cursos Tecnológicos e Profissionais;10º ano;8.7;137;944.2
 2018;Lagos;Cursos Tecnológicos e Profissionais;11º ano;6.8;137;944.2
 2018;Lagos;Cursos Tecnológicos e Profissionais;12º ano;47.2;137;944.2
-2018;Lajes das Flores;Cursos gerais;10º ano;;0;963.1
-2018;Lajes das Flores;Cursos gerais;11º ano;;0;963.1
-2018;Lajes das Flores;Cursos gerais;12º ano;;0;963.1
-2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;963.1
-2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;963.1
-2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;963.1
+2018;Lajes das Flores;Cursos gerais;10º ano;;;963.1
+2018;Lajes das Flores;Cursos gerais;11º ano;;;963.1
+2018;Lajes das Flores;Cursos gerais;12º ano;;;963.1
+2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;963.1
+2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;963.1
+2018;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;963.1
 2018;Lajes do Pico;Cursos gerais;10º ano;3.0;41;851.3
 2018;Lajes do Pico;Cursos gerais;11º ano;3.4;41;851.3
 2018;Lajes do Pico;Cursos gerais;12º ano;27.7;41;851.3
@@ -12209,12 +12209,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Palmela;Cursos Tecnológicos e Profissionais;10º ano;5.4;323;1339.3
 2018;Palmela;Cursos Tecnológicos e Profissionais;11º ano;0.0;323;1339.3
 2018;Palmela;Cursos Tecnológicos e Profissionais;12º ano;19.1;323;1339.3
-2018;Pampilhosa da Serra;Cursos gerais;10º ano;0.0;0;840.9
-2018;Pampilhosa da Serra;Cursos gerais;11º ano;8.3;0;840.9
-2018;Pampilhosa da Serra;Cursos gerais;12º ano;0.0;0;840.9
-2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;10º ano;;0;840.9
-2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;11º ano;;0;840.9
-2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;12º ano;;0;840.9
+2018;Pampilhosa da Serra;Cursos gerais;10º ano;0.0;;840.9
+2018;Pampilhosa da Serra;Cursos gerais;11º ano;8.3;;840.9
+2018;Pampilhosa da Serra;Cursos gerais;12º ano;0.0;;840.9
+2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;10º ano;;;840.9
+2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;11º ano;;;840.9
+2018;Pampilhosa da Serra;Cursos Tecnológicos e Profissionais;12º ano;;;840.9
 2018;Paredes;Cursos gerais;10º ano;14.4;1109;884.2
 2018;Paredes;Cursos gerais;11º ano;6.2;1109;884.2
 2018;Paredes;Cursos gerais;12º ano;22.1;1109;884.2
@@ -12263,12 +12263,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Penedono;Cursos Tecnológicos e Profissionais;10º ano;;23;771.4
 2018;Penedono;Cursos Tecnológicos e Profissionais;11º ano;;23;771.4
 2018;Penedono;Cursos Tecnológicos e Profissionais;12º ano;;23;771.4
-2018;Penela;Cursos gerais;10º ano;;0;893.3
-2018;Penela;Cursos gerais;11º ano;;0;893.3
-2018;Penela;Cursos gerais;12º ano;;0;893.3
-2018;Penela;Cursos Tecnológicos e Profissionais;10º ano;0.0;0;893.3
-2018;Penela;Cursos Tecnológicos e Profissionais;11º ano;;0;893.3
-2018;Penela;Cursos Tecnológicos e Profissionais;12º ano;0.0;0;893.3
+2018;Penela;Cursos gerais;10º ano;;;893.3
+2018;Penela;Cursos gerais;11º ano;;;893.3
+2018;Penela;Cursos gerais;12º ano;;;893.3
+2018;Penela;Cursos Tecnológicos e Profissionais;10º ano;0.0;;893.3
+2018;Penela;Cursos Tecnológicos e Profissionais;11º ano;;;893.3
+2018;Penela;Cursos Tecnológicos e Profissionais;12º ano;0.0;;893.3
 2018;Peniche;Cursos gerais;10º ano;12.5;173;904.2
 2018;Peniche;Cursos gerais;11º ano;12.9;173;904.2
 2018;Peniche;Cursos gerais;12º ano;29.7;173;904.2
@@ -12791,12 +12791,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2018;Vila de Rei;Cursos Tecnológicos e Profissionais;10º ano;;18;820.5
 2018;Vila de Rei;Cursos Tecnológicos e Profissionais;11º ano;;18;820.5
 2018;Vila de Rei;Cursos Tecnológicos e Profissionais;12º ano;12.5;18;820.5
-2018;Vila do Bispo;Cursos gerais;10º ano;;0;960.2
-2018;Vila do Bispo;Cursos gerais;11º ano;;0;960.2
-2018;Vila do Bispo;Cursos gerais;12º ano;;0;960.2
-2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;0;960.2
-2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;0;960.2
-2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;0;960.2
+2018;Vila do Bispo;Cursos gerais;10º ano;;;960.2
+2018;Vila do Bispo;Cursos gerais;11º ano;;;960.2
+2018;Vila do Bispo;Cursos gerais;12º ano;;;960.2
+2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;;960.2
+2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;;960.2
+2018;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;;960.2
 2018;Vila do Conde;Cursos gerais;10º ano;12.2;481;1102.4
 2018;Vila do Conde;Cursos gerais;11º ano;11.2;481;1102.4
 2018;Vila do Conde;Cursos gerais;12º ano;29.6;481;1102.4
@@ -12995,12 +12995,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Alcochete;Cursos Tecnológicos e Profissionais;10º ano;1.4;151;2011.5
 2019;Alcochete;Cursos Tecnológicos e Profissionais;11º ano;1.5;151;2011.5
 2019;Alcochete;Cursos Tecnológicos e Profissionais;12º ano;14.5;151;2011.5
-2019;Alcoutim;Cursos gerais;10º ano;;0;847.7
-2019;Alcoutim;Cursos gerais;11º ano;;0;847.7
-2019;Alcoutim;Cursos gerais;12º ano;;0;847.7
-2019;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;0;847.7
-2019;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;0;847.7
-2019;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;0;847.7
+2019;Alcoutim;Cursos gerais;10º ano;;;847.7
+2019;Alcoutim;Cursos gerais;11º ano;;;847.7
+2019;Alcoutim;Cursos gerais;12º ano;;;847.7
+2019;Alcoutim;Cursos Tecnológicos e Profissionais;10º ano;;;847.7
+2019;Alcoutim;Cursos Tecnológicos e Profissionais;11º ano;;;847.7
+2019;Alcoutim;Cursos Tecnológicos e Profissionais;12º ano;;;847.7
 2019;Alenquer;Cursos gerais;10º ano;25.0;249;1182.2
 2019;Alenquer;Cursos gerais;11º ano;18.2;249;1182.2
 2019;Alenquer;Cursos gerais;12º ano;35.7;249;1182.2
@@ -13427,12 +13427,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Coruche;Cursos Tecnológicos e Profissionais;10º ano;10.1;303;1012.8
 2019;Coruche;Cursos Tecnológicos e Profissionais;11º ano;19.5;303;1012.8
 2019;Coruche;Cursos Tecnológicos e Profissionais;12º ano;11.3;303;1012.8
-2019;Corvo;Cursos gerais;10º ano;0.0;0;1089.1
-2019;Corvo;Cursos gerais;11º ano;0.0;0;1089.1
-2019;Corvo;Cursos gerais;12º ano;;0;1089.1
-2019;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;0;1089.1
-2019;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;0;1089.1
-2019;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;0;1089.1
+2019;Corvo;Cursos gerais;10º ano;0.0;;1089.1
+2019;Corvo;Cursos gerais;11º ano;0.0;;1089.1
+2019;Corvo;Cursos gerais;12º ano;;;1089.1
+2019;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;;1089.1
+2019;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;;1089.1
+2019;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;;1089.1
 2019;Covilhã;Cursos gerais;10º ano;6.7;532;987.9
 2019;Covilhã;Cursos gerais;11º ano;4.6;532;987.9
 2019;Covilhã;Cursos gerais;12º ano;24.9;532;987.9
@@ -13577,12 +13577,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Gavião;Cursos Tecnológicos e Profissionais;10º ano;;39;854.5
 2019;Gavião;Cursos Tecnológicos e Profissionais;11º ano;;39;854.5
 2019;Gavião;Cursos Tecnológicos e Profissionais;12º ano;;39;854.5
-2019;Góis;Cursos gerais;10º ano;;0;822.9
-2019;Góis;Cursos gerais;11º ano;;0;822.9
-2019;Góis;Cursos gerais;12º ano;;0;822.9
-2019;Góis;Cursos Tecnológicos e Profissionais;10º ano;;0;822.9
-2019;Góis;Cursos Tecnológicos e Profissionais;11º ano;;0;822.9
-2019;Góis;Cursos Tecnológicos e Profissionais;12º ano;;0;822.9
+2019;Góis;Cursos gerais;10º ano;;;822.9
+2019;Góis;Cursos gerais;11º ano;;;822.9
+2019;Góis;Cursos gerais;12º ano;;;822.9
+2019;Góis;Cursos Tecnológicos e Profissionais;10º ano;;;822.9
+2019;Góis;Cursos Tecnológicos e Profissionais;11º ano;;;822.9
+2019;Góis;Cursos Tecnológicos e Profissionais;12º ano;;;822.9
 2019;Golegã;Cursos gerais;10º ano;22.2;27;973.7
 2019;Golegã;Cursos gerais;11º ano;14.8;27;973.7
 2019;Golegã;Cursos gerais;12º ano;15.8;27;973.7
@@ -13655,12 +13655,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Lagos;Cursos Tecnológicos e Profissionais;10º ano;10.9;145;980.7
 2019;Lagos;Cursos Tecnológicos e Profissionais;11º ano;10.0;145;980.7
 2019;Lagos;Cursos Tecnológicos e Profissionais;12º ano;27.6;145;980.7
-2019;Lajes das Flores;Cursos gerais;10º ano;;0;1029.0
-2019;Lajes das Flores;Cursos gerais;11º ano;;0;1029.0
-2019;Lajes das Flores;Cursos gerais;12º ano;;0;1029.0
-2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;1029.0
-2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;1029.0
-2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;1029.0
+2019;Lajes das Flores;Cursos gerais;10º ano;;;1029.0
+2019;Lajes das Flores;Cursos gerais;11º ano;;;1029.0
+2019;Lajes das Flores;Cursos gerais;12º ano;;;1029.0
+2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;1029.0
+2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;1029.0
+2019;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;1029.0
 2019;Lajes do Pico;Cursos gerais;10º ano;10.0;40;844.2
 2019;Lajes do Pico;Cursos gerais;11º ano;12.9;40;844.2
 2019;Lajes do Pico;Cursos gerais;12º ano;34.2;40;844.2
@@ -13913,12 +13913,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Mora;Cursos Tecnológicos e Profissionais;10º ano;;18;981.3
 2019;Mora;Cursos Tecnológicos e Profissionais;11º ano;7.7;18;981.3
 2019;Mora;Cursos Tecnológicos e Profissionais;12º ano;;18;981.3
-2019;Mortágua;Cursos gerais;10º ano;3.6;0;1037.8
-2019;Mortágua;Cursos gerais;11º ano;0.0;0;1037.8
-2019;Mortágua;Cursos gerais;12º ano;15.9;0;1037.8
-2019;Mortágua;Cursos Tecnológicos e Profissionais;10º ano;3.2;0;1037.8
-2019;Mortágua;Cursos Tecnológicos e Profissionais;11º ano;0.0;0;1037.8
-2019;Mortágua;Cursos Tecnológicos e Profissionais;12º ano;5.6;0;1037.8
+2019;Mortágua;Cursos gerais;10º ano;3.6;;1037.8
+2019;Mortágua;Cursos gerais;11º ano;0.0;;1037.8
+2019;Mortágua;Cursos gerais;12º ano;15.9;;1037.8
+2019;Mortágua;Cursos Tecnológicos e Profissionais;10º ano;3.2;;1037.8
+2019;Mortágua;Cursos Tecnológicos e Profissionais;11º ano;0.0;;1037.8
+2019;Mortágua;Cursos Tecnológicos e Profissionais;12º ano;5.6;;1037.8
 2019;Moura;Cursos gerais;10º ano;14.9;869;935.5
 2019;Moura;Cursos gerais;11º ano;1.2;869;935.5
 2019;Moura;Cursos gerais;12º ano;39.4;869;935.5
@@ -14201,18 +14201,18 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Porto de Mós;Cursos Tecnológicos e Profissionais;10º ano;3.2;105;1088.0
 2019;Porto de Mós;Cursos Tecnológicos e Profissionais;11º ano;5.5;105;1088.0
 2019;Porto de Mós;Cursos Tecnológicos e Profissionais;12º ano;13.3;105;1088.0
-2019;Porto Moniz;Cursos gerais;10º ano;9.1;0;826.7
-2019;Porto Moniz;Cursos gerais;11º ano;5.3;0;826.7
-2019;Porto Moniz;Cursos gerais;12º ano;45.5;0;826.7
-2019;Porto Moniz;Cursos Tecnológicos e Profissionais;10º ano;;0;826.7
-2019;Porto Moniz;Cursos Tecnológicos e Profissionais;11º ano;;0;826.7
-2019;Porto Moniz;Cursos Tecnológicos e Profissionais;12º ano;;0;826.7
-2019;Porto Santo;Cursos gerais;10º ano;8.1;0;1175.5
-2019;Porto Santo;Cursos gerais;11º ano;8.3;0;1175.5
-2019;Porto Santo;Cursos gerais;12º ano;31.8;0;1175.5
-2019;Porto Santo;Cursos Tecnológicos e Profissionais;10º ano;13.3;0;1175.5
-2019;Porto Santo;Cursos Tecnológicos e Profissionais;11º ano;0.0;0;1175.5
-2019;Porto Santo;Cursos Tecnológicos e Profissionais;12º ano;36.4;0;1175.5
+2019;Porto Moniz;Cursos gerais;10º ano;9.1;;826.7
+2019;Porto Moniz;Cursos gerais;11º ano;5.3;;826.7
+2019;Porto Moniz;Cursos gerais;12º ano;45.5;;826.7
+2019;Porto Moniz;Cursos Tecnológicos e Profissionais;10º ano;;;826.7
+2019;Porto Moniz;Cursos Tecnológicos e Profissionais;11º ano;;;826.7
+2019;Porto Moniz;Cursos Tecnológicos e Profissionais;12º ano;;;826.7
+2019;Porto Santo;Cursos gerais;10º ano;8.1;;1175.5
+2019;Porto Santo;Cursos gerais;11º ano;8.3;;1175.5
+2019;Porto Santo;Cursos gerais;12º ano;31.8;;1175.5
+2019;Porto Santo;Cursos Tecnológicos e Profissionais;10º ano;13.3;;1175.5
+2019;Porto Santo;Cursos Tecnológicos e Profissionais;11º ano;0.0;;1175.5
+2019;Porto Santo;Cursos Tecnológicos e Profissionais;12º ano;36.4;;1175.5
 2019;Póvoa de Lanhoso;Cursos gerais;10º ano;12.8;65;855.7
 2019;Póvoa de Lanhoso;Cursos gerais;11º ano;10.3;65;855.7
 2019;Póvoa de Lanhoso;Cursos gerais;12º ano;13.2;65;855.7
@@ -14639,12 +14639,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2019;Vila de Rei;Cursos Tecnológicos e Profissionais;10º ano;;16;835.4
 2019;Vila de Rei;Cursos Tecnológicos e Profissionais;11º ano;;16;835.4
 2019;Vila de Rei;Cursos Tecnológicos e Profissionais;12º ano;;16;835.4
-2019;Vila do Bispo;Cursos gerais;10º ano;;0;945.4
-2019;Vila do Bispo;Cursos gerais;11º ano;;0;945.4
-2019;Vila do Bispo;Cursos gerais;12º ano;;0;945.4
-2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;0;945.4
-2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;0;945.4
-2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;0;945.4
+2019;Vila do Bispo;Cursos gerais;10º ano;;;945.4
+2019;Vila do Bispo;Cursos gerais;11º ano;;;945.4
+2019;Vila do Bispo;Cursos gerais;12º ano;;;945.4
+2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;10º ano;;;945.4
+2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;11º ano;;;945.4
+2019;Vila do Bispo;Cursos Tecnológicos e Profissionais;12º ano;;;945.4
 2019;Vila do Conde;Cursos gerais;10º ano;16.0;449;1155.0
 2019;Vila do Conde;Cursos gerais;11º ano;7.6;449;1155.0
 2019;Vila do Conde;Cursos gerais;12º ano;32.8;449;1155.0
@@ -15275,12 +15275,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2020;Coruche;Cursos Tecnológicos e Profissionais;10º ano;7.0;286;1041.0
 2020;Coruche;Cursos Tecnológicos e Profissionais;11º ano;0.0;286;1041.0
 2020;Coruche;Cursos Tecnológicos e Profissionais;12º ano;9.1;286;1041.0
-2020;Corvo;Cursos gerais;10º ano;0.0;0;1238.9
-2020;Corvo;Cursos gerais;11º ano;0.0;0;1238.9
-2020;Corvo;Cursos gerais;12º ano;0.0;0;1238.9
-2020;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;0;1238.9
-2020;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;0;1238.9
-2020;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;0;1238.9
+2020;Corvo;Cursos gerais;10º ano;0.0;;1238.9
+2020;Corvo;Cursos gerais;11º ano;0.0;;1238.9
+2020;Corvo;Cursos gerais;12º ano;0.0;;1238.9
+2020;Corvo;Cursos Tecnológicos e Profissionais;10º ano;;;1238.9
+2020;Corvo;Cursos Tecnológicos e Profissionais;11º ano;;;1238.9
+2020;Corvo;Cursos Tecnológicos e Profissionais;12º ano;;;1238.9
 2020;Covilhã;Cursos gerais;10º ano;2.7;453;1027.8
 2020;Covilhã;Cursos gerais;11º ano;2.7;453;1027.8
 2020;Covilhã;Cursos gerais;12º ano;8.0;453;1027.8
@@ -15503,12 +15503,12 @@ Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM
 2020;Lagos;Cursos Tecnológicos e Profissionais;10º ano;7.3;176;1019.3
 2020;Lagos;Cursos Tecnológicos e Profissionais;11º ano;2.6;176;1019.3
 2020;Lagos;Cursos Tecnológicos e Profissionais;12º ano;35.1;176;1019.3
-2020;Lajes das Flores;Cursos gerais;10º ano;;0;984.1
-2020;Lajes das Flores;Cursos gerais;11º ano;;0;984.1
-2020;Lajes das Flores;Cursos gerais;12º ano;;0;984.1
-2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;0;984.1
-2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;0;984.1
-2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;0;984.1
+2020;Lajes das Flores;Cursos gerais;10º ano;;;984.1
+2020;Lajes das Flores;Cursos gerais;11º ano;;;984.1
+2020;Lajes das Flores;Cursos gerais;12º ano;;;984.1
+2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;10º ano;;;984.1
+2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;11º ano;;;984.1
+2020;Lajes das Flores;Cursos Tecnológicos e Profissionais;12º ano;;;984.1
 2020;Lajes do Pico;Cursos gerais;10º ano;8.6;28;924.8
 2020;Lajes do Pico;Cursos gerais;11º ano;0.0;28;924.8
 2020;Lajes do Pico;Cursos gerais;12º ano;0.0;28;924.8
