@@ -20,7 +20,4 @@ def recolha():
     return ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm
 
 
-recolha()
-
-
 

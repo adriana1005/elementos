@@ -1,37 +1,40 @@
-import pandas as pd
 from recolha import recolha
 
-df = recolha()
+ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
-def valores_em_falta(df, nome_coluna):
-    faltar = df[nome_coluna].isnull().sum()
-    return faltar
+def valores_em_falta(faltar):
+    return faltar.isnull().sum()
 
-def faltar_ano(df):
-    return valores_em_falta(df, "Ano")
 
-def faltar_regiao(df):
-    return valores_em_falta(df, "Regiao")
+def faltar_ano(ano):
+    return valores_em_falta(ano)
 
-def faltar_curso(df):
-    return valores_em_falta(df, "Curso")
 
-def faltar_ano_escolar(df):
-    return valores_em_falta(df, "Ano Escolar")
+def faltar_regiao(municipio):
+    return valores_em_falta(municipio)
 
-def faltar_valores_alunos(df):
-    return valores_em_falta(df, "Valor Alunos")
 
-def faltar_valor_rsi(df):
-    return valores_em_falta(df, "Valor RSI ")
+def faltar_curso(curso):
+    return valores_em_falta(curso)
 
-def faltar_valor_gmm(df):
-    return valores_em_falta(df, "Valor GMM")
 
-faltar_ano(df)
-faltar_regiao(df)
-faltar_curso(df)
-faltar_ano_escolar(df)
-faltar_valores_alunos(df)
-faltar_valor_rsi(df)
-faltar_valor_gmm(df)
+def faltar_ano_escolar(ano_escolar):
+    return valores_em_falta(ano_escolar)
+
+
+def faltar_valores_alunos(valor_alunos):
+    return valores_em_falta(valor_alunos)
+
+
+def faltar_valor_rsi(valor_rsi):
+    return valores_em_falta(valor_rsi)
+
+
+def faltar_valor_gmm(valor_gmm):
+    return valores_em_falta(valor_gmm)
+
+
+
+print(faltar_valores_alunos(valor_alunos))
+print(faltar_valor_rsi(valor_rsi))
+print(faltar_valor_gmm(valor_gmm))
