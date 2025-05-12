@@ -1,5 +1,8 @@
 from recolha import *
 
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
+
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
 def valores_em_falta(faltar):
@@ -39,3 +42,34 @@ df.fillna(df.median(numeric_only=True), inplace=True)
 # Guardar o novo ficheiro CSV
 df.to_csv("dados_imputados.csv", index=False)'''
 
+#Iterative Imputation with Scikit-learn
+#https://towardsdatascience.com/iterative-imputation-with-scikit-learn-8f3eb22b1a38/
+
+'''
+original_columns = df.columns.tolist()  # Salva a ordem original
+
+# --- SEPARAR COLUNAS NUMÉRICAS E CATEGÓRICAS ---
+numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+categorical_cols = [col for col in original_columns if col not in numeric_cols]
+
+# --- IMPUTAÇÃO E ARREDONDAMENTO DAS COLUNAS NUMÉRICAS ---
+if numeric_cols:  # Só executa se houver colunas numéricas
+    imputer = IterativeImputer(max_iter=10, random_state=42)
+    df_numeric_imputed = pd.DataFrame(
+        imputer.fit_transform(df[numeric_cols]),
+        columns=numeric_cols
+    )
+    df_numeric_imputed = df_numeric_imputed.round(1)  # 1 casa decimal
+else:
+    df_numeric_imputed = pd.DataFrame()
+
+# --- TRATAR COLUNAS CATEGÓRICAS (PREENCHER COM MODA) ---
+df_categorical_imputed = df[categorical_cols].fillna(df[categorical_cols].mode().iloc[0])
+
+# --- RECRIAR O DATAFRAME COM A ORDEM ORIGINAL ---
+df_final = pd.concat([df_numeric_imputed, df_categorical_imputed], axis=1)
+df_final = df_final[original_columns]  # Reordena as colunas
+
+# --- SALVAR O CSV ---
+df_final.to_csv("dados_preenchidos1.csv", index=False, sep=';')
+'''
