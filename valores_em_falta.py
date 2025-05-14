@@ -2,6 +2,7 @@ from recolha import *
 
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
+from scipy.stats import zscore
 
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
@@ -73,3 +74,50 @@ df_final = df_final[original_columns]  # Reordena as colunas
 # --- SALVAR O CSV ---
 df_final.to_csv("dados_preenchidos1.csv", index=False, sep=';')
 '''
+
+
+
+'''
+# Nome da coluna numérica
+coluna = 'Valor Alunos'
+
+# Calcula o z-score de todos os dados
+df['zscore_valor_alunos'] = zscore(df[coluna])
+
+# Marca se o valor está dentro do intervalo [-3, 3]
+df['zscore_bool_valor_alunos'] = df['zscore_valor_alunos'].between(-3, 3)
+
+# Salva o DataFrame com todas as informações
+df.to_csv("dados_com_zscore1.csv", index=False)
+
+print("Arquivo salvo como 'dados_com_zscore.csv'")
+'''
+
+'''
+coluna = 'Valor RSI '
+
+# Calcula o z-score de todos os dados
+df['zscore_valor_rsi'] = zscore(df[coluna])
+
+# Marca se o valor está dentro do intervalo [-3, 3]
+df['zscore_bool_valor_rsi'] = df['zscore_valor_rsi'].between(-3, 3)
+
+# Salva o DataFrame com todas as informações
+df.to_csv("dados_com_zscore2.csv", index=False)
+
+print("Arquivo salvo como 'dados_com_zscore.csv'")
+
+'''
+
+coluna = 'Valor GMM'
+
+# Calcula o z-score de todos os dados
+df['zscore_valor_gmm'] = zscore(df[coluna])
+
+# Marca se o valor está dentro do intervalo [-3, 3]
+df['zscore_bool_valor_gmm'] = df['zscore_valor_gmm'].between(-3, 3)
+
+# Salva o DataFrame com todas as informações
+df.to_csv("dados_com_zscore3.csv", index=False)
+
+print("Arquivo salvo como 'dados_com_zscore.csv'")
