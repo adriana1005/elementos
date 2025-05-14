@@ -45,7 +45,8 @@ df.to_csv("dados_imputados.csv", index=False)'''
 
 #Iterative Imputation with Scikit-learn
 #https://towardsdatascience.com/iterative-imputation-with-scikit-learn-8f3eb22b1a38/
-
+# por causa do z-score
+#https://www.investopedia.com/terms/z/zscore.asp#:~:text=In%20investing%20and%20trading%2C%20Z-scores%20are%20measures%20of,to%20the%20mean%20in%20a%20group%20of%20scores.
 '''
 original_columns = df.columns.tolist()  # Salva a ordem original
 
@@ -75,6 +76,7 @@ df_final = df_final[original_columns]  # Reordena as colunas
 df_final.to_csv("dados_preenchidos1.csv", index=False, sep=';')
 '''
 
+<<<<<<< Updated upstream
 
 
 '''
@@ -121,3 +123,5 @@ df['zscore_bool_valor_gmm'] = df['zscore_valor_gmm'].between(-3, 3)
 df.to_csv("dados_com_zscore3.csv", index=False)
 
 print("Arquivo salvo como 'dados_com_zscore.csv'")
+=======
+>>>>>>> Stashed changes
