@@ -4,7 +4,8 @@ from scipy.stats import zscore
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
@@ -147,4 +148,5 @@ def winsorizacaogmm():
 
 winsorizacaogmm()
 
-    
+sns.boxplot(y=df["Valor Alunos"])
+plt.show()
