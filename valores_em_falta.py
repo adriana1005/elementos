@@ -3,8 +3,9 @@ from sklearn.experimental import enable_iterative_imputer
 
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
+
 def valores_em_falta(faltar):
-    '''funçao geral para todos os valores'''
+    '''função geral para todos os valores'''
     return faltar.isnull().sum()
 
 
@@ -72,11 +73,3 @@ df_final = df_final[original_columns]  # Reordena as colunas
 # --- SALVAR O CSV ---
 df_final.to_csv("dados_preenchidos1.csv", index=False, sep=';')
 '''
-
-
-
-
-
-
-
-

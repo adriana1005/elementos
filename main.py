@@ -4,7 +4,7 @@ from outliers import *
 
 def main():
 
-    dados =
+    dados = recolha()
     if dados:
         print("Ficheiro lido com sucesso!")
     else:
