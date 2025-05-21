@@ -1,17 +1,17 @@
 
-# Projeto de Análise deSentimentos de Tweets de Companhias Aéreas dos EUA
-## Descrição do projeto
-Este projeto é um package Python desenvolvido para leitura, análise, de um dataset de tweets relacionados a companhias aéreas nos Estados Unidos.Utiliza o dataset **Twitter US Airline Sentiment** e implementa diversas funcionalidades, incluindo análise de sentimentos, processamento temporal e visualização de dados.
+## Elementos de Inteligência Artificial e Ciência de Dados - Trabalho Prático 
+## Descrição do trabalho
+Este projeto é um package Python desenvolvido para leitura, tratamento e análise de dados relativamente aos municípios de Portugal. Utiliza ficheiros CSV estraídos do **PORDATA** e implementa diversas funcionalidades, incluindo ,  e .
 
 
-O objetivo principal é permitir que os dados sejam analisados de forma eficiente, gerando insights sobre as companhias aéreas com base nos tweets dos uttilizadores. A solução inclui funcionalidades robustas, tratamento de exceções e logs para garantir a integridade do programa.
+O objetivo principal é permitir que os dados sejam analisados de forma eficiente, gerando insights sobre com base nos dados .
 
 ---
 
 ## Funcionalidades
 O package oferece diversas funcionalidades para análise de dados:
 1. **Leitura de Dados**
-    - **Leitura do Fcheiro CSV**: carrega os dados do dataset em listas estruturadas.
+    - **Leitura do Ficheiro CSV**: carrega os dados do dataset em listas estruturadas.
     - **Separar Dados**: Organiza os dados do dataset em listas individuais(ex: 'airline_sentiment', 'airline', 'tweet_created').
     - **Validação dos Dados**: Verifica a integridade das listas carregadas, garantindo consistência no número de elementos.
 
@@ -58,29 +58,15 @@ O package oferece diversas funcionalidades para análise de dados:
 ```
 projeto/
 |- funcoes
-   |- airline.py
-   |- airline_sentimente.py
-   |- airline_sentiment_confidence.py
-   |- companhia_mais_positivos.py
-   |- dia_com_mais_tweets.py
-   |- ler_documento.py
-   |- name.py
-   |- numero_medio_retweets.py
-   |- projeto.log
-   |- sentimento_airline_lista.py
-   |- sentimentos_companhia.json
-   |- sentimentos_companhias.csv
-   |- separarinformacao.py
-   |- text.py
-   |- tweet_created.py
-   |- tweet_location.p
+   |- recolha.py
+   |- valores_em_falta.py
+   |- outliers.py
 |- projeto
 |- ven
-|- A_FAZER.py
-|- Main.py
-|- Readme.md
+|- main.py
+|- README.md
 |- requirements.txt
-|- Setup.py
+|- setup.py
 ```
 
 ---
@@ -91,14 +77,13 @@ Para executar este projeto, é necessário ter instaladas as seguintes dependên
 
 ```bash
 pip install matplotlib
-pip install folium
-pip install datetime
+
 ```
 
 ---
 
 ## Como Executar
-###1. **Descarregar a pasta zip**
+### 1. **Descarregar a pasta zip**
 - Para descarregar a pasta zip: [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
 - Colocar o caminho do ficheiro 'Tweet.csv' em ler_documento.py dentro do projeto em path
 
@@ -143,14 +128,6 @@ grafico_percentagem_sentimentos(sentiments_percentage)
 locations()
 ```
 
----
-
-## Logs
-Os logs do programa são regisados no ficheiro **'projeto.log'**. Ele documenta eventos importantes, como:
-   - Início e conclusão de funções.
-   - Tratamento de excessões e erros com informações detalhadas.
-
----
 
 ## Exportação de Resultados
 Os resultados das análises são exportados automaticamente para os seguintes ficheiros:
@@ -158,17 +135,7 @@ Os resultados das análises são exportados automaticamente para os seguintes fi
    - **JSON**: 'sentimentos_companhias.json'
    - **Mapa**: 'mapa_tweets.html'
 
----
-
-## Exemplo Visual
-### Gráfico de Sentimentos:
-![Exemplo de Gráfico](example_graph.png)
-
-### Mapa de Localização
-![Mapa Interativo](mapa_tweets.png)
-
----
 
 ## Autores
-   - **Nome**: Carlota Santos (Github: carlotasantos)
-   - **Nome**: Adriana Abreu (Github: adriana1005 )
+   - **Nome**: Leonor Rebola, 53663 (Github: leonorrebola9)
+   - **Nome**: Adriana Abreu, 53672 (Github: adriana1005 )
