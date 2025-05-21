@@ -1,42 +1,38 @@
 
 ## Elementos de Inteligência Artificial e Ciência de Dados - Trabalho Prático 
 ## Descrição do trabalho
-Este projeto é um package Python desenvolvido para leitura, tratamento e análise de dados relativamente aos municípios de Portugal. Utiliza ficheiros CSV estraídos do **PORDATA** e implementa diversas funcionalidades, incluindo ,  e .
+Este projeto é um package Python desenvolvido para leitura, tratamento e análise de dados relativamente aos municípios de Portugal. Utiliza ficheiros CSV extraídos do **PORDATA** e implementa diversas funcionalidades, incluindo ,  e .
 
 
-O objetivo principal é permitir que os dados sejam analisados de forma eficiente, gerando insights sobre com base nos dados .
+O objetivo principal é permitir que os dados sejam analisados de forma eficiente, gerando insights sobre os municípios com base nos dados fornecidos.
 
 ---
 
-## Funcionalidades
-O package oferece diversas funcionalidades para análise de dados:
-1. **Leitura de Dados**
-    - **Leitura do Ficheiro CSV**: carrega os dados do dataset em listas estruturadas.
-    - **Separar Dados**: Organiza os dados do dataset em listas individuais(ex: 'airline_sentiment', 'airline', 'tweet_created').
-    - **Validação dos Dados**: Verifica a integridade das listas carregadas, garantindo consistência no número de elementos.
+## Estrutura do package
+Para a realização deste package foi necessário seguir estes passos:
+1. **Recolha de Dados:** através do PORDATA, realizou-se a recolha dos dados em ficheiro CSV para a elaboração do package. Os dados tidos em conta foram:
+    - **Taxa de retenção e desistência no ensino secundário por modalidade de ensino e ano de escolaridade**
+    - **Ganho médio mensal**
+    - **Beneficiários do Rendimento Social de Inserção (RSI) por grupo etário**
 
 
-2. **Análise de Sentimentos**
-    - **Contagem de Sentimentos**: Conta o número de tweets por sentimnto(positivo, negativo, neutro).
-    - **Percentagem de Sentimento**: Calcula a percentagem de cada de sentimento para todas as companhias aéreas.
-    - **Companhia com mais tweets Positivos/Negativos**: Identifica a companhia com o maior número de tweets positivos ou negativos. 
-    - **Média de Retwets por Sentimento**: Calcula a média de retweets para cada tipo de sentimento. 
+2. **Integração de Dados:** após a recolha, criámos um Excel com todos os dados entre os anos de 2012 e 2022
 
 
-3. **Leitura de Dados**
+3. **Análise Exploratória de Dados:**
     - **Listar Companhias**: Cria uma lista com os nomes das companhias mencionadas.
     - **Contagem de Tweets por Companhia**: Mostra o número total de tweets por companhia.
     - **Filtrar tweets por Companhia**: Filtra e exibe os detalhes de tweets de uma companhia especifica(texto, sentimento, número de tweets e data).
 
 
-4. **Processamento Temporal**:
+4. **Limpeza e Processamento de Dados:**:
     - **Dia com mais Tweets**: Identifica o dia do mês com o maior número de tweets.
     - **Dia com mais Tweets**: Identifica o dia do mês com o maior número de tweets.
     - **Mês com mais ou menos Tweets**: Determina os meses com maior e menor quantidade de tweet.
     - **Distribuição Temporal**: Cria contadores de tweets por dia e mês para análise temporal detalhada.
  
     
-5. **Visualização dos Dados:**
+5. **Análise Descritiva:**
     - **Gráfico de Sentimento**: Gera um gráfico de barras com a disribuição de sentimentos(positivo, negativo e neutro) por companhia aérea.
     - **Gráfico de Confiança**: Exibe a distribuição dos valores de confiança em intervalos definidos.
     - **Mapa de Localizações**: Gera um mapa interativo com as localizações associadas aos tweets, utilizando coordenadas geográficas.
@@ -45,12 +41,6 @@ O package oferece diversas funcionalidades para análise de dados:
 
 6. **Exportação de Resultados**
     - **CSV**: Exporta os resultados das percentagens de sentimentos por companhia para um ficheiro CSV.
-    - **JSON**: Exporta os mesmos dados em formato JSON. 
-
-    
-7. **Logs e Tratamentos de Exceções**
-    - **Logs**: Todas as execuções importantes, validações e erros são registados mo ficheiro **projeto.log**.
-    - **Tratamento de Erros**: Implementa tratamento robusto de erros e validações de dados.
 
 ---
 
@@ -123,10 +113,7 @@ Data: 2015-02-24 11:48:29 -0800
 ```python
 grafico_percentagem_sentimentos(sentiments_percentage)
 ```
-#### Gerar Mapa de Localizações:
-```python
-locations()
-```
+
 
 
 ## Exportação de Resultados
