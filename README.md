@@ -1,1 +1,174 @@
-# elementos
+
+# Projeto de Análise deSentimentos de Tweets de Companhias Aéreas dos EUA
+## Descrição do projeto
+Este projeto é um package Python desenvolvido para leitura, análise, de um dataset de tweets relacionados a companhias aéreas nos Estados Unidos.Utiliza o dataset **Twitter US Airline Sentiment** e implementa diversas funcionalidades, incluindo análise de sentimentos, processamento temporal e visualização de dados.
+
+
+O objetivo principal é permitir que os dados sejam analisados de forma eficiente, gerando insights sobre as companhias aéreas com base nos tweets dos uttilizadores. A solução inclui funcionalidades robustas, tratamento de exceções e logs para garantir a integridade do programa.
+
+---
+
+## Funcionalidades
+O package oferece diversas funcionalidades para análise de dados:
+1. **Leitura de Dados**
+    - **Leitura do Fcheiro CSV**: carrega os dados do dataset em listas estruturadas.
+    - **Separar Dados**: Organiza os dados do dataset em listas individuais(ex: 'airline_sentiment', 'airline', 'tweet_created').
+    - **Validação dos Dados**: Verifica a integridade das listas carregadas, garantindo consistência no número de elementos.
+
+
+2. **Análise de Sentimentos**
+    - **Contagem de Sentimentos**: Conta o número de tweets por sentimnto(positivo, negativo, neutro).
+    - **Percentagem de Sentimento**: Calcula a percentagem de cada de sentimento para todas as companhias aéreas.
+    - **Companhia com mais tweets Positivos/Negativos**: Identifica a companhia com o maior número de tweets positivos ou negativos. 
+    - **Média de Retwets por Sentimento**: Calcula a média de retweets para cada tipo de sentimento. 
+
+
+3. **Leitura de Dados**
+    - **Listar Companhias**: Cria uma lista com os nomes das companhias mencionadas.
+    - **Contagem de Tweets por Companhia**: Mostra o número total de tweets por companhia.
+    - **Filtrar tweets por Companhia**: Filtra e exibe os detalhes de tweets de uma companhia especifica(texto, sentimento, número de tweets e data).
+
+
+4. **Processamento Temporal**:
+    - **Dia com mais Tweets**: Identifica o dia do mês com o maior número de tweets.
+    - **Dia com mais Tweets**: Identifica o dia do mês com o maior número de tweets.
+    - **Mês com mais ou menos Tweets**: Determina os meses com maior e menor quantidade de tweet.
+    - **Distribuição Temporal**: Cria contadores de tweets por dia e mês para análise temporal detalhada.
+ 
+    
+5. **Visualização dos Dados:**
+    - **Gráfico de Sentimento**: Gera um gráfico de barras com a disribuição de sentimentos(positivo, negativo e neutro) por companhia aérea.
+    - **Gráfico de Confiança**: Exibe a distribuição dos valores de confiança em intervalos definidos.
+    - **Mapa de Localizações**: Gera um mapa interativo com as localizações associadas aos tweets, utilizando coordenadas geográficas.
+    - **Ordenação de Sentimentos**: Ordena as companhias aéreas pela percentagem de sentimentos específicos.
+
+
+6. **Exportação de Resultados**
+    - **CSV**: Exporta os resultados das percentagens de sentimentos por companhia para um ficheiro CSV.
+    - **JSON**: Exporta os mesmos dados em formato JSON. 
+
+    
+7. **Logs e Tratamentos de Exceções**
+    - **Logs**: Todas as execuções importantes, validações e erros são registados mo ficheiro **projeto.log**.
+    - **Tratamento de Erros**: Implementa tratamento robusto de erros e validações de dados.
+
+---
+
+## Estrutura do Projeto
+```
+projeto/
+|- funcoes
+   |- airline.py
+   |- airline_sentimente.py
+   |- airline_sentiment_confidence.py
+   |- companhia_mais_positivos.py
+   |- dia_com_mais_tweets.py
+   |- ler_documento.py
+   |- name.py
+   |- numero_medio_retweets.py
+   |- projeto.log
+   |- sentimento_airline_lista.py
+   |- sentimentos_companhia.json
+   |- sentimentos_companhias.csv
+   |- separarinformacao.py
+   |- text.py
+   |- tweet_created.py
+   |- tweet_location.p
+|- projeto
+|- ven
+|- A_FAZER.py
+|- Main.py
+|- Readme.md
+|- requirements.txt
+|- Setup.py
+```
+
+---
+
+## Requesitos
+
+Para executar este projeto, é necessário ter instaladas as seguintes dependências:
+
+```bash
+pip install matplotlib
+pip install folium
+pip install datetime
+```
+
+---
+
+## Como Executar
+###1. **Descarregar a pasta zip**
+- Para descarregar a pasta zip: [Twitter US Airline Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
+- Colocar o caminho do ficheiro 'Tweet.csv' em ler_documento.py dentro do projeto em path
+
+### 2. **Executar o Script Principal**
+Corra o 'main.py':
+```bash
+python main.py
+```
+
+### 3. **Exmplo de Uso**
+#### Contar Sentimentos: 
+``` python
+count_sentiment()
+```
+**Saída**:
+```
+0  erro
+9178  negative
+2363  positive
+3099 neutral
+```
+
+#### Filtar Tweets de uma Companha Específica
+```python
+filtrar_tweets_por_companhia("Delta")
+```
+**Saída**:
+```
+Texto: @JetBlue I hope so because I fly very often and would hate to change airlines.
+Sentimento: neutral
+Retweets: 0
+Data: 2015-02-24 11:48:29 -0800
+--------------------------------------------------------------------------------------------------
+```
+
+#### Gerar Gráfico de Sentimentos:
+```python
+grafico_percentagem_sentimentos(sentiments_percentage)
+```
+#### Gerar Mapa de Localizações:
+```python
+locations()
+```
+
+---
+
+## Logs
+Os logs do programa são regisados no ficheiro **'projeto.log'**. Ele documenta eventos importantes, como:
+   - Início e conclusão de funções.
+   - Tratamento de excessões e erros com informações detalhadas.
+
+---
+
+## Exportação de Resultados
+Os resultados das análises são exportados automaticamente para os seguintes ficheiros:
+   - **CSV**: 'sentimentos_companhias.csv'
+   - **JSON**: 'sentimentos_companhias.json'
+   - **Mapa**: 'mapa_tweets.html'
+
+---
+
+## Exemplo Visual
+### Gráfico de Sentimentos:
+![Exemplo de Gráfico](example_graph.png)
+
+### Mapa de Localização
+![Mapa Interativo](mapa_tweets.png)
+
+---
+
+## Autores
+   - **Nome**: Carlota Santos (Github: carlotasantos)
+   - **Nome**: Adriana Abreu (Github: adriana1005 )
