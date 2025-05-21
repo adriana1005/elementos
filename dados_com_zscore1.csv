@@ -1,4 +1,4 @@
-Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI ;Valor GMM;zscore_valor_alunos;zscore_bool_valor_alunos;zscore_valor_rsi;zscore_bool_valor_rsi;zscore_valor_gmm;zscore_bool_valor_gmm
+Ano;Regiao;Curso;Ano Escolar;Valor Alunos;Valor RSI;Valor GMM;zscore_valor_alunos;zscore_bool_valor_alunos;zscore_valor_rsi;zscore_bool_valor_rsi;zscore_valor_gmm;zscore_bool_valor_gmm
 2012;Abrantes;Cursos gerais;10º ano;19.3;556.0;975.8;0.47742879198903443;TRUE;0.14103435894445915;TRUE;0.05623272817373615;TRUE
 2012;Abrantes;Cursos gerais;11º ano;16.5;556.0;975.8;0.24388375622439173;TRUE;0.14103435894445915;TRUE;0.05623272817373615;TRUE
 2012;Abrantes;Cursos gerais;12º ano;38.5;556.0;975.8;2.078880465803727;TRUE;0.14103435894445915;TRUE;0.05623272817373615;TRUE

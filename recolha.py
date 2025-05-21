@@ -4,7 +4,7 @@ def recolha():
     '''
     separar os dados pelas várias variaveis
     '''
-    df = pd.read_csv('principal.csv', sep=';', encoding='latin1')
+    df = pd.read_csv('dados_com_zscore1.csv', sep=';', encoding='latin1')
     ano = df['Ano'] #2012 a 2022
     municipio = df['Regiao']
     curso = df['Curso'] #Profissional ou Ensino Normal
