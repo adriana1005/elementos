@@ -4,7 +4,7 @@ from outliers import *
 
 def main():
 
-    dados = ler_ficheiro(path_name)
+    dados =
     if dados:
         print("Ficheiro lido com sucesso!")
     else:
