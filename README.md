@@ -109,10 +109,7 @@ Data: 2015-02-24 11:48:29 -0800
 --------------------------------------------------------------------------------------------------
 ```
 
-#### Gerar Gráfico de Sentimentos:
-```python
-grafico_percentagem_sentimentos(sentiments_percentage)
-```
+
 
 
 
