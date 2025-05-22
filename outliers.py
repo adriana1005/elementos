@@ -3,9 +3,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 
-# print(df["Valor Alunos"].describe())
+print(df["Valor Alunos"].describe())
 
 
 def iqralunos():
@@ -31,12 +33,10 @@ def iqralunos():
     min_sup = outliers_sup.min() if not outliers_sup.empty else None
     max_inf = outliers_inf.max() if not outliers_inf.empty else None
 
-    print("IQR para a Taxa de retenção e desistência no ensino secundário por modalidade de ensino e ano de escolaridade:")
     print(f"Limite inferior (LI): {LI:.2f}")
     print(f"Limite superior (LS): {LS:.2f}")
     print(f"Maior outlier inferior: {max_inf}")
     print(f"Menor outlier superior: {min_sup}")
-    print()
     '''Name: Valor Alunos, dtype: float64
     Limite inferior (LI): -15.35
     Limite superior (LS): 38.65
@@ -44,13 +44,11 @@ def iqralunos():
     Menor outlier superior: 38.7
     '''
     max_inf = max_inf if max_inf is not None else 0
-    return min_sup, max_inf
-
+    return min_sup,max_inf
 
 def iqrrsi():
-    plt.figure()
+    plt.figure(figsize=(3, 8))
     sns.boxplot(y=df["Valor RSI"])
-    # plt.yscale('log')
     plt.show()
 
     coluna = "Valor RSI"
@@ -72,13 +70,13 @@ def iqrrsi():
     min_sup = outliers_sup.min() if not outliers_sup.empty else None
     max_inf = outliers_inf.max() if not outliers_inf.empty else None
 
-    print("IQR para Ganho médio mensal:")
     print(f"Limite inferior (LI): {LI:.2f}")
     print(f"Limite superior (LS): {LS:.2f}")
     print(f"Maior outlier inferior: {max_inf}")
     print(f"Menor outlier superior: {min_sup}")
-    print()
-    return max_inf, min_sup
+    max_inf = max_inf if max_inf is not None else 0
+    return min_sup,max_inf
+
 
 
 def iqrgmm():
@@ -104,19 +102,16 @@ def iqrgmm():
     min_sup = outliers_sup.min() if not outliers_sup.empty else None
     max_inf = outliers_inf.max() if not outliers_inf.empty else None
 
-    print("IQR para Beneficiários do Rendimento Social de Inserção (RSI) por grupo etário:")
     print(f"Limite inferior (LI): {LI:.2f}")
     print(f"Limite superior (LS): {LS:.2f}")
     print(f"Maior outlier inferior: {max_inf}")
     print(f"Menor outlier superior: {min_sup}")
-    print()
+    max_inf = max_inf if max_inf is not None else 0
     return min_sup, max_inf
-
 
 min_supa, max_infa = iqralunos()
 min_supr, max_infr = iqrrsi()
 min_supg, max_infg = iqrgmm()
-
 
 def winsorizealunos():
     def winsorize_by_value(data, lower_bound, upper_bound):
@@ -125,14 +120,12 @@ def winsorizealunos():
         data[data > upper_bound] = upper_bound
         return data
 
-    # Aplica a winsorização à coluna desejada (substitui a original
-    lower = max_infa if max_infa is not None else df["Valor Alunos"].min()
-    upper = min_supa if min_supa is not None else df["Valor Alunos"].max()
-
+    
+    # Aplica a winsorização à coluna desejada (substitui a original)
     df['Valor Alunos'] = winsorize_by_value(df['Valor Alunos'], lower_bound=10, upper_bound=90)
-    winsorize_by_value(df["Valor Alunos"], lower, upper)
+    winsorize_by_value(df["Valor Alunos"], max_infa, min_supa)
     # Salva no mesmo arquivo (sobrescreve)
-    df.to_csv('dados_com_zscore10.csv', index=False)
+    df.to_csv('dados_com_zscore20.csv', index=False)
 
 
 def winsorizersi():
@@ -142,17 +135,12 @@ def winsorizersi():
         data[data > upper_bound] = upper_bound
         return data
 
-    lower = max_infr if max_infr is not None else df["Valor RSI"].min()
-    upper = min_supr if min_supr is not None else df["Valor RSI"].max()
-
+    
     # Aplica a winsorização à coluna desejada (substitui a original)
-    df['Valor RSI'] = winsorize_by_value(df['Valor RSI'], lower_bound=10, upper_bound=90)
-    winsorize_by_value(df["Valor RSI"], lower, upper)
+    df['Valor RSI'] = winsorize_by_value(df['Valor RSI'], lower_bound=10, upper_bound=1000)
+    winsorize_by_value(df["Valor RSI"], max_infr, min_supr)
     # Salva no mesmo arquivo (sobrescreve)
-    df.to_csv('dados_com_zscore11.csv', index=False)
-
-
-winsorizersi()
+    df.to_csv('dados_com_zscore21.csv', index=False)
 
 
 def winsorizegmm():
@@ -162,15 +150,11 @@ def winsorizegmm():
         data[data > upper_bound] = upper_bound
         return data
 
-    lower = max_infg if max_infg is not None else df["Valor GMM"].min()
-    upper = min_supg if min_supg is not None else df["Valor GMM"].max()
-
+    
     # Aplica a winsorização à coluna desejada (substitui a original)
-    df['Valor GMM'] = winsorize_by_value(df['Valor GMM'], lower_bound=10, upper_bound=90)
-    winsorize_by_value(df["Valor GMM"], lower, upper)
+    df['Valor GMM'] = winsorize_by_value(df['Valor GMM'], lower_bound=650, upper_bound=min_supg)
+    winsorize_by_value(df["Valor GMM"], max_infg, min_supg)
     # Salva no mesmo arquivo (sobrescreve)
-    df.to_csv('dados_com_zscore12.csv', index=False)
-
-
+    df.to_csv('dados_com_zscore221.csv', index=False)
 winsorizegmm()
 
