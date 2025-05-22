@@ -17,7 +17,7 @@ with open(join(here, 'README.md'), encoding='utf-8') as buff:
     long_description = buff.read()
 
 setup(
-    name="Análise de tweets em relação às airlines dos Estados Unidos",
+    name="Elementos de Inteligência Artificial e Ciência de Dados - Trabalho Prático",
     version="0.1",
     description=" "
                 " ",
