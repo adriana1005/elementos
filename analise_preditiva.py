@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import numpy as np
 
-df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
+df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
 np.random.seed(0)
 X = 2 * np.random.rand(100, 1)
