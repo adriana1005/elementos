@@ -7,15 +7,15 @@ import numpy as np
 df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
 np.random.seed(0)
-X = 2 * np.random.rand(100, 1)
-y = 4 + 3 * X + np.random.rand(100, 1)
+X = alunos1.values.reshape(-1, 1)
+y = valor_rsi.values
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-X_line = np.linspace(0, 2, 100).reshape(-1, 1)
+X_line = np.linspace(0, 150, 100).reshape(-1, 1)
 y_pred = model.predict(X_line)
 
 plt.scatter(X_train, y_train, color='pink', label='Treino')
