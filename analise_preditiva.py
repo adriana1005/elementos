@@ -1,11 +1,7 @@
 from recolha import *
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
-import numpy as np
-import random
 import seaborn as sns
 import matplotlib.pyplot as plt
+
 
 df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
