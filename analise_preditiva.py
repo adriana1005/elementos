@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
 
-def reg_aluno1_gmm(alunos1, valor_rsi, valor_gmm):
+def reg_aluno1(alunos1, valor_rsi, valor_gmm):
     sns.set(style="whitegrid")
 
     plt.figure(figsize=(8, 6))
@@ -22,42 +22,102 @@ def reg_aluno1_gmm(alunos1, valor_rsi, valor_gmm):
 
     plt.xlabel("Taxa de desistência escolar do 10º ano em Ensino Geral")
     plt.ylabel("Valor do Rendimento Social de Inserção")
-    plt.title("Relação entre desistência escolar e rendimento social e ganho médio mensal para os alunos do 10ºano em Ensino Geral")
+    plt.title("Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 10ºano em Ensino Geral")
     plt.tight_layout()
     plt.show()
-reg_aluno1_gmm(alunos1, valor_rsi, valor_gmm)
+#reg_aluno1(alunos1, valor_rsi, valor_gmm)
 
-def reg_aluno1_gmm():
+
+def reg_aluno2(alunos2, valor_rsi, valor_gmm):
     sns.set(style="whitegrid")
 
     plt.figure(figsize=(8, 6))
-    sns.regplot(x=alunos1, y=valor_gmm, color="mediumpurple", scatter_kws={"s": 40, "alpha": 0.6})
-    plt.xlabel("Taxa de desisistência escolar do 10º ano em Ensino Geral")
+    scatter = plt.scatter(alunos2, valor_rsi, c=valor_gmm, cmap="plasma", s=40, alpha=0.6)
+    plt.colorbar(scatter, label="Ganho médio mensal")
+
+    # Linha de regressão sem os pontos (scatter=False)
+    sns.regplot(x=alunos2, y=valor_gmm, scatter=False, color="black")
+
+    plt.xlabel("Taxa de desistência escolar do 10º ano em Ensino Profissional")
     plt.ylabel("Valor do Rendimento Social de Inserção")
+    plt.title(
+        "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 10º ano em Ensino Profissional")
+    plt.tight_layout()
     plt.show()
+reg_aluno2(alunos2, valor_rsi, valor_gmm)
 
 
+def reg_aluno3(alunos3, valor_rsi, valor_gmm):
+    sns.set(style="whitegrid")
 
-'''
-def reg_aluno1_rsi():
-    X = alunos1.values.reshape(-1, 1)
-    y = valor_rsi.values
+    plt.figure(figsize=(8, 6))
+    scatter = plt.scatter(alunos2, valor_rsi, c=valor_gmm, cmap="plasma", s=40, alpha=0.6)
+    plt.colorbar(scatter, label="Ganho médio mensal")
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # Linha de regressão sem os pontos (scatter=False)
+    sns.regplot(x=alunos3, y=valor_gmm, scatter=False, color="black")
 
-    model = LinearRegression()
-    model.fit(X_train, y_train)
-
-    X_line = np.linspace(0, 150, 100).reshape(-1, 1)
-    y_pred = model.predict(X_line)
-
-    plt.scatter(X_train, y_train, color='pink', label='Treino')
-    plt.plot(X_line, y_pred, color='purple', linewidth=2, label='Regressão')
-    plt.xlabel("Número de alunos no 1º ciclo")
-    plt.ylabel("Valor do RSI")
-    plt.legend()
-    plt.title("Regressão Linear: alunos1 vs RSI")
+    plt.xlabel("Taxa de desistência escolar do 11º ano em Ensino Geral")
+    plt.ylabel("Valor do Rendimento Social de Inserção")
+    plt.title(
+        "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 11º ano em Ensino Geral")
+    plt.tight_layout()
     plt.show()
-#nova_experiencia = np.array([1.5])
-'''
+#reg_aluno3(alunos3, valor_rsi, valor_gmm)
 
+
+def reg_aluno4(alunos4, valor_rsi, valor_gmm):
+    sns.set(style="whitegrid")
+
+    plt.figure(figsize=(8, 6))
+    scatter = plt.scatter(alunos4, valor_rsi, c=valor_gmm, cmap="plasma", s=40, alpha=0.6)
+    plt.colorbar(scatter, label="Ganho médio mensal")
+
+    # Linha de regressão sem os pontos (scatter=False)
+    sns.regplot(x=alunos4, y=valor_gmm, scatter=False, color="black")
+
+    plt.xlabel("Taxa de desistência escolar do 11º ano em Ensino Profissional")
+    plt.ylabel("Valor do Rendimento Social de Inserção")
+    plt.title(
+        "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 11º ano em Ensino Profissional")
+    plt.tight_layout()
+    plt.show()
+#reg_aluno4(alunos4, valor_rsi, valor_gmm)
+
+
+def reg_aluno5(alunos5, valor_rsi, valor_gmm):
+    sns.set(style="whitegrid")
+
+    plt.figure(figsize=(8, 6))
+    scatter = plt.scatter(alunos5, valor_rsi, c=valor_gmm, cmap="plasma", s=40, alpha=0.6)
+    plt.colorbar(scatter, label="Ganho médio mensal")
+
+    # Linha de regressão sem os pontos (scatter=False)
+    sns.regplot(x=alunos5, y=valor_gmm, scatter=False, color="black")
+
+    plt.xlabel("Taxa de desistência escolar do 12º ano em Ensino Geral")
+    plt.ylabel("Valor do Rendimento Social de Inserção")
+    plt.title(
+        "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 12º ano em Ensino Geral")
+    plt.tight_layout()
+    plt.show()
+#reg_aluno5(alunos5, valor_rsi, valor_gmm)
+
+
+def reg_aluno6(alunos6, valor_rsi, valor_gmm):
+    sns.set(style="whitegrid")
+
+    plt.figure(figsize=(8, 6))
+    scatter = plt.scatter(alunos6, valor_rsi, c=valor_gmm, cmap="plasma", s=40, alpha=0.6)
+    plt.colorbar(scatter, label="Ganho médio mensal")
+
+    # Linha de regressão sem os pontos (scatter=False)
+    sns.regplot(x=alunos6, y=valor_gmm, scatter=False, color="black")
+
+    plt.xlabel("Taxa de desistência escolar do 12º ano em Ensino Profissional")
+    plt.ylabel("Valor do Rendimento Social de Inserção")
+    plt.title(
+        "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 12º ano em Ensino Profissional")
+    plt.tight_layout()
+    plt.show()
+#reg_aluno6(alunos6, valor_rsi, valor_gmm)
