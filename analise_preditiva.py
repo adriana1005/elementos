@@ -44,7 +44,7 @@ def reg_aluno2(alunos2, valor_rsi, valor_gmm):
         "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 10º ano em Ensino Profissional")
     plt.tight_layout()
     plt.show()
-reg_aluno2(alunos2, valor_rsi, valor_gmm)
+#reg_aluno2(alunos2, valor_rsi, valor_gmm)
 
 
 def reg_aluno3(alunos3, valor_rsi, valor_gmm):
@@ -120,4 +120,4 @@ def reg_aluno6(alunos6, valor_rsi, valor_gmm):
         "Relação entre desistência escolar, rendimento social e ganho médio mensal para os alunos do 12º ano em Ensino Profissional")
     plt.tight_layout()
     plt.show()
-#reg_aluno6(alunos6, valor_rsi, valor_gmm)
+reg_aluno6(alunos6, valor_rsi, valor_gmm)
