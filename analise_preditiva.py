@@ -82,7 +82,7 @@ def c_gmm_sup():
         "11º ano CP:": alunos4gs,
         "12º ano CG:": alunos5gs,
         "12º ano CP:": alunos6gs,
-        "Rendimento Social de Inserção:": valor_rsi_gs,
+        "Rendimento Social de Inserção:": valor_gmm_gs,
         "Ganho médio mensal:": valor_gmm_gs
     })
 
@@ -102,7 +102,7 @@ def c_gmm_inf():
         "11º ano CP:": alunos4gi,
         "12º ano CG:": alunos5gi,
         "12º ano CP:": alunos6gi,
-        "Rendimento Social de Inserção:": valor_rsi_gi,
+        "Rendimento Social de Inserção:": valor_gmm_gi,
         "Ganho médio mensal:": valor_gmm_gi
     })
 
