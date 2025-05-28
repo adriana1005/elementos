@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 def recolha():
     '''
     separar os dados pelas várias variaveis
@@ -16,10 +15,10 @@ def recolha():
     alunos6 = df['Alunos12CProfissional']
     valor_rsi = df['valor_RSI'] #valor de pessoas que recebem o rendimento social de inserção
     valor_gmm = df['valor_GMM'] #valor em euros do ganho medio mensal
-
+    
+    
 
     return df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm
-
 
 def recolha_rsi_inf():
     '''
@@ -100,3 +99,4 @@ missing_values = df.isnull().sum()
 print(missing_values)
 print(df.columns)
 '''
+
