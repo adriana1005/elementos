@@ -1,13 +1,4 @@
 from recolha import *
-<<<<<<< HEAD
-import pandas as pd
-=======
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
-import numpy as np
-import random
->>>>>>> parent of 4c5cf9c (Update analise_preditiva.py)
 import seaborn as sns
 import matplotlib.pyplot as plt
 
