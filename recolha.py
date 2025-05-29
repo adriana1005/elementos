@@ -53,8 +53,10 @@ def recolha_gmm_inf():
     alunos6gi = df_gi['Alunos12CProfissional']
     valor_rsi_gi = df_gi['valor_RSI']  # valor de pessoas que recebem o rendimento social de inserção
     valor_gmm_gi = df_gi['valor_GMM']  # valor em euros do ganho medio mensal
+    valor_GMM_gi = df_gi['Valor GMM']
+ 
 
-    return df_gi, ano_gi, municipio_gi, alunos1gi, alunos2gi, alunos3gi, alunos4gi, alunos5gi, alunos6gi, valor_rsi_gi, valor_gmm_gi
+    return df_gi, ano_gi, municipio_gi, alunos1gi, alunos2gi, alunos3gi, alunos4gi, alunos5gi, alunos6gi, valor_rsi_gi, valor_gmm_gi, valor_GMM_gi
 
 
 def recolha_gmm_sup():
@@ -72,8 +74,10 @@ def recolha_gmm_sup():
     alunos6gs = df_gs['Alunos12CProfissional']
     valor_rsi_gs = df_gs['valor_RSI']  # valor de pessoas que recebem o rendimento social de inserção
     valor_gmm_gs = df_gs['valor_GMM']  # valor em euros do ganho medio mensal
+    valor_GMM_gs = df_gs['Valor GMM']
 
-    return df_gs, ano_gs, municipio_gs, alunos1gs, alunos2gs, alunos3gs, alunos4gs, alunos5gs, alunos6gs, valor_rsi_gs, valor_gmm_gs
+
+    return df_gs, ano_gs, municipio_gs, alunos1gs, alunos2gs, alunos3gs, alunos4gs, alunos5gs, alunos6gs, valor_rsi_gs, valor_gmm_gs, valor_GMM_gs
 
 
 def recolha_rsi_sup():
@@ -90,7 +94,9 @@ def recolha_rsi_sup():
     alunos5rs = df_rs['Alunos12CGeral']
     alunos6rs = df_rs['Alunos12CProfissional']
     valor_rsi_rs = df_rs['valor_RSI']  # valor de pessoas que recebem o rendimento social de inserção
-    valor_gmm_rs = df_rs['valor_GMM']  # valor em euros do ganho medio mensal
+    valor_gmm_rs = df_rs['valor_GMM'] # valor em euros do ganho medio mensal
+
+
 
     return df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5rs, alunos6rs, valor_rsi_rs, valor_gmm_rs
 '''

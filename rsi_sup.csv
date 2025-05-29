@@ -1,4 +1,4 @@
-Ano;Regiao;Alunos10CGeral;Alunos10CProfissional;Alunos11CGeral;Alunos11CProfissional;Alunos12CGeral;valor_alunos_minmax;valor_RSI_minmax;valor_GMM_minmax
+Ano;Regiao;Alunos10CGeral;Alunos10CProfissional;Alunos11CGeral;Alunos11CProfissional;Alunos12CGeral;Alunos12CProfissional;valor_RSI;valor_GMM
 2012;Abrantes;0.324;0.101;0.226;0.0;0.993;0.798;0.692;0.441
 2012;Águeda;0.359;0.014;0.066;0.0;1.0;0.15;0.622;0.365
 2012;Alcobaça;0.0;0.0;0.077;0.0;0.972;0.659;0.521;0.293
