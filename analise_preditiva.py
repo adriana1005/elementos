@@ -3,6 +3,9 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
+
+
+
 df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
 df_ri, ano_ri, municipio_ri, alunos1ri, alunos2ri, alunos3ri, alunos4ri, alunos5ri, alunos6ri, valor_rsi_ri, valor_gmm_ri = recolha_rsi_inf()
@@ -12,6 +15,8 @@ df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5
 df_gs, ano_gs, municipio_gs, alunos1gs, alunos2gs, alunos3gs, alunos4gs, alunos5gs, alunos6gs, valor_rsi_gs, valor_gmm_gs = recolha_gmm_sup()
 
 df_gi, ano_gi, municipio_gi, alunos1gi, alunos2gi, alunos3gi, alunos4gi, alunos5gi, alunos6gi, valor_rsi_gi, valor_gmm_gi = recolha_gmm_inf()
+
+#df_z, ano_z, municipio_z, anoescolar, valor_alunos_z, valor_rsi_z, valor_gmm_z, zscore_alunos, zscore_alunosb, zscore_rsi, zscore_gmm,  zscore_rsib, zscore_gmmb, alunos_normalizado, rsi_normalizado, gmm_normalizado = recolha_zscore()
 
 
 def principal():
@@ -98,7 +103,7 @@ def c_gmm_sup():
     plt.tight_layout()
     plt.show()
 
-c_gmm_sup()
+
 
 def c_gmm_inf():
     dados = pd.DataFrame({
@@ -120,4 +125,48 @@ def c_gmm_inf():
     plt.tight_layout()
     plt.show()
 
-c_gmm_inf()
+
+def grafico_media_alunos():
+    df = pd.read_csv("dados_com_zscore1.csv", sep=";")
+    df_grouped = df.groupby('Ano')['Valor Alunos'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor Alunos'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média da Taxa Retenção e Desistência no Ensino Secundário Por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Taxa Retenção e Desistência no Ensino Secundário')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+grafico_media_alunos()
+
+def grafico_media_gmm():
+    df = pd.read_csv("dados_com_zscore1.csv", sep=";")
+    df_grouped = df.groupby('Ano')['Valor GMM'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média dos Ganhos Médios Mensais por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Ganhos Médios Mensais')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+grafico_media_gmm()
+
+def grafico_media_rsi():
+    df = pd.read_csv("dados_com_zscore1.csv", sep=";")
+    df_grouped = df.groupby('Ano')['Valor RSI'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor RSI'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média dos Rendimentos Sociais de Inserção por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Rendimentos Sociais de Inserção')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+grafico_media_rsi()

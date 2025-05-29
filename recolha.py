@@ -100,3 +100,25 @@ print(missing_values)
 print(df.columns)
 '''
 
+def recolha_zscore():
+    '''
+    separar os dados pelas várias variaveis
+    '''
+    df_z = pd.read_csv('dados_com_zscore1.csv', sep=';', encoding='latin1')
+    ano_z = df_z['Ano']  # 2012 a 2022
+    municipio_z = df_z['Regiao']
+    anoescolar = df_z['Ano Escolar']
+    valor_alunos_z = df_z['Valor Alunos']
+    valor_rsi_z = df_z['Valor RSI']
+    valor_gmm_z = df_z['Valor GMM']
+    zscore_alunos = df_z['zscore_valor_alunos']
+    zscore_alunosb = df_z['zscore_bool_valor_alunos']
+    zscore_rsi = df_z['zscore_valor_rsi']
+    zscore_rsib = df_z['zscore_bool_valor_rsi']
+    zscore_gmm = df_z['zscore_valor_gmm']  
+    zscore_gmmb = df_z['zscore_bool_valor_gmm'] 
+    alunos_normalizado = df_z['valor_alunos_minmax']
+    rsi_normalizado = df_z['valor_RSI_minmax']
+    gmm_normalizado = df_z['valor_GMM_minmax']
+
+    return df_z, ano_z, municipio_z, anoescolar, valor_alunos_z, valor_rsi_z, valor_gmm_z, zscore_alunos, zscore_alunosb, zscore_rsi, zscore_gmm,  zscore_rsib, zscore_gmmb, alunos_normalizado, rsi_normalizado, gmm_normalizado   
