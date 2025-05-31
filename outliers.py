@@ -111,7 +111,7 @@ def iqrgmm():
 
 
 
-def winsorizealunos():
+def winsorizealunos(max_infa, min_supa):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
@@ -126,7 +126,7 @@ def winsorizealunos():
     dfp.to_csv('dados_com_zscore20.csv', index=False)
 
 
-def winsorizersi():
+def winsorizersi(max_infr, min_supr):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
@@ -141,7 +141,7 @@ def winsorizersi():
     dfp.to_csv('dados_com_zscore21.csv', index=False)
 
 
-def winsorizegmm():
+def winsorizegmm(max_infg, min_infg):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
