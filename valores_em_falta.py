@@ -1,5 +1,5 @@
 from recolha import *
-from sklearn.experimental import enable_iterative_imputer
+
 
 dff, anof, municipiof, cursof, anoescolarf, alunosf, rsi_f, gmm_f = recolhaantesfalta()
 print(dff.describe())
@@ -13,9 +13,9 @@ def faltar_valores_alunos(valor_alunos):
     '''valores em falta da desistência escolar em percentagem'''
     print(faltar_valores_alunos(valor_alunos))
 
-    df = pd.read_csv('elementos.csv')
+    df = pd.read_csv('Dados/elementos.csv')
 
-    # Remover linhas com NaN na coluna 'email'
+    # Remover linhas com NaN
     df.dropna(subset=['Valor Alunos'], inplace=True)
 
     # Salvar o DataFrame modificado em um novo CSV
