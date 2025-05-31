@@ -71,7 +71,7 @@ def main():
                         opcao1 = int(input('Escolha uma das opções: '))
                         try:
                             if opcao1 == 0:
-                                raise EncerrarPrograma
+                                break
                             elif opcao1 == 1:
                                 print(f'\033[1;36mA quantidade de valores em falta são: 2949 \033[m')
                                 
@@ -101,7 +101,7 @@ def main():
                             opcao2 = int(input('Escolha uma das opções: '))
 
                             if opcao2 == 0:
-                                raise EncerrarPrograma
+                                break
                             elif opcao2 == 1:
                                 iqralunos()
                                 
@@ -135,7 +135,7 @@ def main():
                             opcao3 = int(input('Escolha uma das opções: '))
 
                             if opcao3 == 0:
-                                raise EncerrarPrograma
+                                break
                             elif opcao3 == 1:
                                 principal()
                             elif opcao3 == 2:
