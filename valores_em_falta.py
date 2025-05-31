@@ -1,8 +1,8 @@
 from recolha import *
 from sklearn.experimental import enable_iterative_imputer
 
-df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
-
+dff, anof, municipiof, cursof, anoescolarf, alunosf, rsi_f, gmm_f = recolhaantesfalta()
+print(dff.describe())
 
 def valores_em_falta(faltar):
     '''função geral para todos os valores'''

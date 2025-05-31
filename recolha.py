@@ -146,3 +146,21 @@ def recolhaantesoutlies():
     
 
     return dfp, ano, municipio, curso, anoescolar, alunos, rsi_p, gmm_p
+
+
+def recolhaantesfalta():
+    '''
+    separar os dados pelas várias variaveis
+    '''
+    dff = pd.read_csv('elementoscsv.csv', sep=';', encoding='latin1')
+    anof = dff['Ano'] #2012 a 2022
+    municipiof = dff['Regiao']
+    cursof = dff['Curso']
+    anoescolarf = dff['Ano Escolar']
+    alunosf = dff['Valor Alunos']
+    rsi_f = dff['Valor RSI ']
+    gmm_f = dff['Valor GMM']
+
+    
+
+    return dff, anof, municipiof, cursof, anoescolarf, alunosf, rsi_f, gmm_f
