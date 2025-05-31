@@ -55,7 +55,7 @@ def main():
                     raise EncerrarPrograma
 
                 elif opcao == 1:
-                    print(f'\033[1;36mAs variáveis  são: \033[m')
+                    print(f'\033[1;36mAs variáveis  são: \033[m4')
                     print('Taxa de retenção e desistência no ensino secundário por modalidade de ensino e ano de escolaridade (em percentagem) ')
                     print('Beneciários do Rendimento Social de Inserção (por faixa etária) ')
                     print('Ganho médio mensal (em euros)')

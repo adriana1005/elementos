@@ -14,7 +14,7 @@ def faltar_valores_alunos(valor_alunos):
     media_valores = dff['Valor Alunos'].mean()
     dff['Valor Alunos'] = dff['Valor Alunos'].fillna(media_valores)
 
-    # 4. Salvar o DataFrame com os valores imputados num novo CSV
+    # 4. Salvar o DataFrame com os vlores imputados num novo CSV
     dff.to_csv('dados_imputados_media.csv', index=False)
 
 
