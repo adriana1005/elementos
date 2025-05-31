@@ -9,16 +9,17 @@ def valores_em_falta(faltar):
     return faltar.isnull().sum()
 
 
-def faltar_valores_alunos(valor_alunos):
+def faltar_valores_alunos():
     '''valores em falta da desistência escolar em percentagem'''
     media_valores = dff['Valor Alunos'].mean()
     dff['Valor Alunos'] = dff['Valor Alunos'].fillna(media_valores)
 
     # 4. Salvar o DataFrame com os valores imputados num novo CSV
-    dff.to_csv('dados_imputados_media.csv', index=False)
+    dff.to_csv('dados_imputados_alunos.csv', index=False)
 
 
-    return valores_em_falta(valor_alunos)
+    
+faltar_valores_alunos()
 
 
 def faltar_valor_rsi(valor_rsi):
