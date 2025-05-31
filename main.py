@@ -126,10 +126,10 @@ def main():
                             '6 - Gráfico das barras da taxa de desistencia por anos \n'
                             '7 - Gráfico das barras dos rendimentos de inserção por anos \n'
                             '8 - Gráfico das barras dos ganhos médios por anos \n'
-                            '9 - Gráfico das barras dos rendimento de inserção 10 e 404 por anos'
-                            '10 - Gráfico das barras dos rendimento de inserção 405 e 799 por anos'
-                            '11 - Gráfico das barras dos ganho médio mensal 683.5 e 1014.6 por anos'
-                            '12 - Gráfico das barras dos ganho médio mensal 1015.1 e 1346.7 por anos'
+                            '9 - Gráfico das barras dos rendimento de inserção 10 e 404 por anos \n'
+                            '10 - Gráfico das barras dos rendimento de inserção 405 e 799 por anos \n'
+                            '11 - Gráfico das barras dos ganho médio mensal 683.5 e 1014.6 por anos \n'
+                            '12 - Gráfico das barras dos ganho médio mensal 1015.1 e 1346.7 por anos \n'
                             '0 - Sair')
                         try:
                             opcao3 = int(input('Escolha uma das opções: '))
