@@ -103,7 +103,7 @@ def c_gmm_sup():
     plt.tight_layout()
     plt.show()
 
-c_gmm_sup()
+
 
 def c_gmm_inf():
     dados = pd.DataFrame({
@@ -124,10 +124,10 @@ def c_gmm_inf():
     plt.title("Matriz de Correlação gmm inf")
     plt.tight_layout()
     plt.show()
-c_gmm_inf()
+
 
 def grafico_media_alunos():
-    df = pd.read_csv("dados_com_zscore1.csv", sep=";", encoding="latin1")
+    df = pd.read_csv("Dados/dados_com_zscore1.csv", sep=";", encoding="latin1")
     df_grouped = df.groupby('Ano')['Valor Alunos'].mean().reset_index()
 
     # Plotar gráfico de barras
@@ -139,10 +139,10 @@ def grafico_media_alunos():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-grafico_media_alunos()
+
 
 def grafico_media_gmm():
-    df = pd.read_csv("dados_com_zscore1.csv", sep=";", encoding="latin1")
+    df = pd.read_csv("Dados/dados_com_zscore1.csv", sep=";", encoding="latin1")
     df_grouped = df.groupby('Ano')['Valor GMM'].mean().reset_index()
 
     # Plotar gráfico de barras
@@ -154,10 +154,10 @@ def grafico_media_gmm():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-grafico_media_gmm()
+
 
 def grafico_media_rsi():
-    df = pd.read_csv("dados_com_zscore1.csv", sep=";" , encoding="latin1")
+    df = pd.read_csv("Dados/dados_com_zscore1.csv", sep=";" , encoding="latin1")
     df_grouped = df.groupby('Ano')['Valor RSI'].mean().reset_index()
 
     # Plotar gráfico de barras
@@ -169,4 +169,3 @@ def grafico_media_rsi():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-grafico_media_rsi()

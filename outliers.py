@@ -38,8 +38,6 @@ def iqralunos():
     #print(f"Maior outlier inferior: {max_inf}")
     #print(f"Menor outlier superior: {min_sup}")
     '''Name: Valor Alunos, dtype: float64
-    Limite inferior (LI): -15.35
-    Limite superior (LS): 38.65
     Maior outlier inferior: None
     Menor outlier superior: 38.7
     '''
@@ -109,11 +107,9 @@ def iqrgmm():
     max_inf = max_inf if max_inf is not None else 0
     return min_sup, max_inf
 
-min_supa, max_infa = iqralunos()
-min_supr, max_infr = iqrrsi()
-min_supg, max_infg = iqrgmm()
 
-def winsorizealunos():
+
+def winsorizealunos(max_infa, min_supa):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
@@ -125,10 +121,10 @@ def winsorizealunos():
     dfp['Valor Alunos'] = winsorize_by_value(dfp['Valor Alunos'], lower_bound=10, upper_bound=90)
     winsorize_by_value(dfp["Valor Alunos"], max_infa, min_supa)
     # Salva no mesmo arquivo (sobrescreve)
-    dfp.to_csv('dados_com_zscore20.csv', index=False)
+    dfp.to_csv('dadoswinsorizados_alunos.csv', index=False)
 
 
-def winsorizersi():
+def winsorizersi(max_infr, min_supr):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
@@ -140,10 +136,10 @@ def winsorizersi():
     dfp['Valor RSI'] = winsorize_by_value(dfp['Valor RSI'], lower_bound=10, upper_bound=1000)
     winsorize_by_value(dfp["Valor RSI"], max_infr, min_supr)
     # Salva no mesmo arquivo (sobrescreve)
-    dfp.to_csv('dados_com_zscore21.csv', index=False)
+    dfp.to_csv('dadoswinsorizados_rsi.csv', index=False)
 
 
-def winsorizegmm():
+def winsorizegmm(max_infg, min_supg):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
@@ -155,5 +151,5 @@ def winsorizegmm():
     dfp['Valor GMM'] = winsorize_by_value(dfp['Valor GMM'], lower_bound=650, upper_bound=min_supg)
     winsorize_by_value(dfp["Valor GMM"], max_infg, min_supg)
     # Salva no mesmo arquivo (sobrescreve)
-    dfp.to_csv('dados_com_zscore221.csv', index=False)
+    dfp.to_csv('dadoswinsorizados_gmm.csv', index=False)
 
