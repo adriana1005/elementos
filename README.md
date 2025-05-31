@@ -56,10 +56,10 @@ Para executar este projeto, é necessário ter instaladas as seguintes dependên
 ```bash
 pip install pandas
 pip install matplotlib
-pip install seaborn
 pip install numpy
+pip install scikit-learn
+pip install seaborn
 ```
-
 ---
 
 ## Como Executar
