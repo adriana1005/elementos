@@ -127,4 +127,22 @@ def recolha_zscore():
     rsi_normalizado = df_z['valor_RSI_minmax']
     gmm_normalizado = df_z['valor_GMM_minmax']
 
-    return df_z, ano_z, municipio_z, anoescolar, valor_alunos_z, valor_rsi_z, valor_gmm_z, zscore_alunos, zscore_alunosb, zscore_rsi, zscore_gmm,  zscore_rsib, zscore_gmmb, alunos_normalizado, rsi_normalizado, gmm_normalizado   
+    return df_z, ano_z, municipio_z, anoescolar, valor_alunos_z, valor_rsi_z, valor_gmm_z, zscore_alunos, zscore_alunosb, zscore_rsi, zscore_gmm,  zscore_rsib, zscore_gmmb, alunos_normalizado, rsi_normalizado, gmm_normalizado
+
+
+def recolhaantesoutlies():
+    '''
+    separar os dados pelas várias variaveis
+    '''
+    dfp = pd.read_csv('dados_preenchidos1.csv', sep=';', encoding='latin1')
+    ano = dfp['Ano'] #2012 a 2022
+    municipio = dfp['Regiao']
+    curso = dfp['Curso']
+    anoescolar = dfp['Ano Escolar']
+    alunos = dfp['Valor Alunos']
+    rsi_p = dfp['Valor RSI ']
+    gmm_p = dfp['Valor GMM']
+
+    
+
+    return dfp, ano, municipio, curso, anoescolar, alunos, rsi_p, gmm_p
