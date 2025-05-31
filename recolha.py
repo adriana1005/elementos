@@ -4,7 +4,7 @@ def recolha():
     '''
     separar os dados pelas várias variaveis
     '''
-    df = pd.read_csv('dadostratados.csv', sep=';', encoding='latin1')
+    df = pd.read_csv('Dados/dadostratados.csv', sep=';', encoding='latin1')
     ano = df['Ano'] #2012 a 2022
     municipio = df['Regiao']
     alunos1 = df['Alunos10CGeral']
@@ -24,7 +24,7 @@ def recolha_rsi_inf():
     '''
     separar os dados pelas várias variaveis
     '''
-    df_ri = pd.read_csv('rsi_inf.csv', sep=';', encoding='latin1')
+    df_ri = pd.read_csv('Dados/rsi_inf.csv', sep=';', encoding='latin1')
     ano_ri = df_ri['Ano']  # 2012 a 2022
     municipio_ri = df_ri['Regiao']
     alunos1ri = df_ri['Alunos10CGeral']
@@ -42,7 +42,7 @@ def recolha_gmm_inf():
     '''
     separar os dados pelas várias variaveis
     '''
-    df_gi = pd.read_csv('gmm_inf.csv', sep=';', encoding='latin1')
+    df_gi = pd.read_csv('Dados/gmm_inf.csv', sep=';', encoding='latin1')
     ano_gi = df_gi['Ano']  # 2012 a 2022
     municipio_gi = df_gi['Regiao']
     alunos1gi = df_gi['Alunos10CGeral']
@@ -63,7 +63,7 @@ def recolha_gmm_sup():
     '''
     separar os dados pelas várias variaveis
     '''
-    df_gs = pd.read_csv('gmm_sup.csv', sep=';', encoding='latin1')
+    df_gs = pd.read_csv('Dados/gmm_sup.csv', sep=';', encoding='latin1')
     ano_gs = df_gs['Ano']  # 2012 a 2022
     municipio_gs = df_gs['Regiao']
     alunos1gs = df_gs['Alunos10CGeral']
@@ -84,7 +84,7 @@ def recolha_rsi_sup():
     '''
     separar os dados pelas várias variaveis
     '''
-    df_rs = pd.read_csv('rsi_sup.csv', sep=';', encoding='latin1')
+    df_rs = pd.read_csv('Dados/rsi_sup.csv', sep=';', encoding='latin1')
     ano_rs = df_rs['Ano']  # 2012 a 2022
     municipio_rs = df_rs['Regiao']
     alunos1rs = df_rs['Alunos10CGeral']
@@ -110,7 +110,7 @@ def recolha_zscore():
     '''
     separar os dados pelas várias variaveis
     '''
-    df_z = pd.read_csv('dados_com_zscore1.csv', sep=';', encoding='latin1')
+    df_z = pd.read_csv('Dados/dados_com_zscore1.csv', sep=';', encoding='latin1')
     ano_z = df_z['Ano']  # 2012 a 2022
     municipio_z = df_z['Regiao']
     anoescolar = df_z['Ano Escolar']
@@ -134,7 +134,7 @@ def recolhaantesoutlies():
     '''
     separar os dados pelas várias variaveis
     '''
-    dfp = pd.read_csv('dados_preenchidos1.csv', sep=';', encoding='latin1')
+    dfp = pd.read_csv('Dados/dados_preenchidos1.csv', sep=';', encoding='latin1')
     ano = dfp['Ano'] #2012 a 2022
     municipio = dfp['Regiao']
     curso = dfp['Curso']
@@ -152,7 +152,7 @@ def recolhaantesfalta():
     '''
     separar os dados pelas várias variaveis
     '''
-    dff = pd.read_csv('elementoscsv.csv', sep=';', encoding='latin1')
+    dff = pd.read_csv('Dados/elementoscsv.csv', sep=';', encoding='latin1')
     anof = dff['Ano'] #2012 a 2022
     municipiof = dff['Regiao']
     cursof = dff['Curso']
