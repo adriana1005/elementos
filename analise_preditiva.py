@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 
 df, ano, municipio, alunos1, alunos2, alunos3, alunos4, alunos5, alunos6, valor_rsi, valor_gmm = recolha()
 
-df_ri, ano_ri, municipio_ri, alunos1ri, alunos2ri, alunos3ri, alunos4ri, alunos5ri, alunos6ri, valor_rsi_ri, valor_gmm_ri = recolha_rsi_inf()
+df_ri, ano_ri, municipio_ri, alunos1ri, alunos2ri, alunos3ri, alunos4ri, alunos5ri, alunos6ri, valor_rsi_ri, valor_gmm_ri, valor_RSI_ri = recolha_rsi_inf()
 
-df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5rs, alunos6rs, valor_rsi_rs, valor_gmm_rs = recolha_rsi_sup()
+df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5rs, alunos6rs, valor_rsi_rs, valor_gmm_rs, valor_RSI_rs = recolha_rsi_sup()
 
 df_gs, ano_gs, municipio_gs, alunos1gs, alunos2gs, alunos3gs, alunos4gs, alunos5gs, alunos6gs, valor_rsi_gs, valor_gmm_gs, valor_GMM_gs = recolha_gmm_sup()
 
@@ -60,7 +60,6 @@ def c_rsi_inf():
     plt.show()
 
 
-
 def c_rsi_sup():
     dados = pd.DataFrame({
         "10º ano CG": alunos1rs,
@@ -81,8 +80,6 @@ def c_rsi_sup():
     plt.tight_layout()
     plt.show()
 
-
-
 def c_gmm_sup():
     dados = pd.DataFrame({
         "10º ano CG": alunos1gs,
@@ -102,8 +99,6 @@ def c_gmm_sup():
     plt.title("Matriz de Correlação gmm sup")
     plt.tight_layout()
     plt.show()
-
-
 
 def c_gmm_inf():
     dados = pd.DataFrame({
@@ -168,3 +163,46 @@ def grafico_media_rsi():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
+
+
+def grafico_media_gmminf():
+    df_grouped = df_gi.groupby('Ano')['Valor GMM'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média dos Ganho Médio Mensal por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Ganho Médio Mensal')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+
+def grafico_media_gmmsup():
+    df_grouped = df_gs.groupby('Ano')['Valor GMM'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média dos Ganho Médio Mensal por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Ganho Médio Mensal')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+grafico_media_gmmsup()
+
+def grafico_media_gmmsup():
+    df_grouped = df_gi.groupby('Ano')['Valor GMM'].mean().reset_index()
+
+    # Plotar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.title('Média dos Ganho Médio Mensal por Ano')
+    plt.xlabel('Ano')
+    plt.ylabel('Ganho Médio Mensal')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+grafico_media_gmmsup()

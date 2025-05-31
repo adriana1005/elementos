@@ -35,8 +35,9 @@ def recolha_rsi_inf():
     alunos6ri = df_ri['Alunos12CProfissional']
     valor_rsi_ri = df_ri['valor_RSI']  # valor de pessoas que recebem o rendimento social de inserção
     valor_gmm_ri = df_ri['valor_GMM']  # valor em euros do ganho medio mensal
+    valor_RSI_ri = df_ri['valor_GMM']
 
-    return df_ri, ano_ri, municipio_ri, alunos1ri, alunos2ri, alunos3ri, alunos4ri, alunos5ri, alunos6ri, valor_rsi_ri, valor_gmm_ri
+    return df_ri, ano_ri, municipio_ri, alunos1ri, alunos2ri, alunos3ri, alunos4ri, alunos5ri, alunos6ri, valor_rsi_ri, valor_gmm_ri, valor_RSI_ri
 
 def recolha_gmm_inf():
     '''
@@ -95,10 +96,11 @@ def recolha_rsi_sup():
     alunos6rs = df_rs['Alunos12CProfissional']
     valor_rsi_rs = df_rs['valor_RSI']  # valor de pessoas que recebem o rendimento social de inserção
     valor_gmm_rs = df_rs['valor_GMM'] # valor em euros do ganho medio mensal
+    valor_RSI_rs = df_rs['valor_GMM']
 
 
 
-    return df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5rs, alunos6rs, valor_rsi_rs, valor_gmm_rs
+    return df_rs, ano_rs, municipio_rs, alunos1rs, alunos2rs, alunos3rs, alunos4rs, alunos5rs, alunos6rs, valor_rsi_rs, valor_gmm_rs, valor_RSI_rs
 '''
 df, ano, municipio, curso, ano_escolar, valor_alunos, valor_rsi, valor_gmm = recolha()
 missing_values = df.isnull().sum()
