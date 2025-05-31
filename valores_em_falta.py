@@ -11,15 +11,13 @@ def valores_em_falta(faltar):
 
 def faltar_valores_alunos(valor_alunos):
     '''valores em falta da desistência escolar em percentagem'''
-    print(faltar_valores_alunos(valor_alunos))
+    media_valores = dff['Valor Alunos'].mean()
+    dff['Valor Alunos'] = dff['Valor Alunos'].fillna(media_valores)
 
-    df = pd.read_csv('Dados/elementos.csv')
+    # 4. Salvar o DataFrame com os valores imputados num novo CSV
+    dff.to_csv('dados_imputados_media.csv', index=False)
 
-    # Remover linhas com NaN
-    df.dropna(subset=['Valor Alunos'], inplace=True)
 
-    # Salvar o DataFrame modificado em um novo CSV
-    df.to_csv('dados_sem_nulos.csv', index=False)
     return valores_em_falta(valor_alunos)
 
 
