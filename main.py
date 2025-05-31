@@ -103,12 +103,12 @@ def main():
                             if opcao2 == 0:
                                 raise EncerrarPrograma
                             elif opcao2 == 1:
-                                winsorizealunos()
+                                iqralunos()
                                 
                             elif opcao2 == 2:
-                                winsorizersi()
+                                iqrrsi()
                             elif opcao2 == 3:
-                                winsorizegmm()
+                                iqrgmm()
                             elif opcao2 == 4:
                                 print(f'\033[1;36m Para identificá-los utilizámos o método iqr e para tratá-los o winsorize. \033[m')
                             else:

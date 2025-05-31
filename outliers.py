@@ -109,9 +109,7 @@ def iqrgmm():
     max_inf = max_inf if max_inf is not None else 0
     return min_sup, max_inf
 
-min_supa, max_infa = iqralunos()
-min_supr, max_infr = iqrrsi()
-min_supg, max_infg = iqrgmm()
+
 
 def winsorizealunos():
     def winsorize_by_value(data, lower_bound, upper_bound):
