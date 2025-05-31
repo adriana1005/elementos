@@ -191,7 +191,7 @@ def grafico_media_gmmsup():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-grafico_media_gmmsup()
+
 
 def grafico_media_gmminf():
     df_grouped = df_gi.groupby('Ano')['Valor GMM'].mean().reset_index()
@@ -207,12 +207,12 @@ def grafico_media_gmminf():
     plt.show()
 
 
-def grafico_media_gmmsup():
-    df_grouped = df_gi.groupby('Ano')['Valor GMM'].mean().reset_index()
+def grafico_media_rsiinf():
+    df_grouped = df_ri.groupby('Ano')['Valor RSI'].mean().reset_index()
 
     # Plotar gráfico de barras
     plt.figure(figsize=(10, 6))
-    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.bar(df_grouped['Ano'], df_grouped['Valor RSI'], color='#CD7BEB', edgecolor='black')
     plt.title('Média dos Ganhos Médios Mensais entre 683.5 e 1014.6 por Ano')
     plt.xlabel('Ano')
     plt.ylabel('Ganho Médio Mensal')
@@ -221,15 +221,14 @@ def grafico_media_gmmsup():
     plt.show()
 
 def grafico_media_rsisup():
-    df_grouped = df_gi.groupby('Ano')['Valor GMM'].mean().reset_index()
+    df_grouped = df_rs.groupby('Ano')['Valor RSI'].mean().reset_index()
 
     # Plotar gráfico de barras
     plt.figure(figsize=(10, 6))
-    plt.bar(df_grouped['Ano'], df_grouped['Valor GMM'], color='#CD7BEB', edgecolor='black')
+    plt.bar(df_grouped['Ano'], df_grouped['Valor RSI'], color='#CD7BEB', edgecolor='black')
     plt.title('Média dos Ganhos Médios Mensais 1015.1 a 1346.7 por Ano')
     plt.xlabel('Ano')
     plt.ylabel('Ganho Médio Mensal')
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-grafico_media_gmmsup()
