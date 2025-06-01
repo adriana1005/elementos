@@ -9,28 +9,31 @@ def valores_em_falta(faltar):
     return faltar.isnull().sum()
 
 
-def faltar_valores_alunos(valor_alunos):
+def faltar_valores_alunos():
     '''valores em falta da desistência escolar em percentagem'''
     media_valores = dff['Valor Alunos'].mean()
     dff['Valor Alunos'] = dff['Valor Alunos'].fillna(media_valores)
 
-    # 4. Salvar o DataFrame com os vlores imputados num novo CSV
-    dff.to_csv('dados_imputados_media.csv', index=False)
-
-
-    return valores_em_falta(valor_alunos)
+    # 4. Salvar o DataFrame com os valores imputados num novo CSV
+    dff.to_csv('dados_imputados_alunos.csv', index=False)
 
 
 def faltar_valor_rsi(valor_rsi):
     '''valores em falta rendimento social de inserção'''
-    print(faltar_valor_rsi(valor_rsi))
-    return valores_em_falta(valor_rsi)
+    media_valores = dff['Valor RSI '].mean()
+    dff['Valor RSI '] = dff['Valor RSI '].fillna(media_valores)
+
+    # 4. Salvar o DataFrame com os valores imputados num novo CSV
+    dff.to_csv('dados_imputados_rsi.csv', index=False)
 
 
 def faltar_valor_gmm(valor_gmm):
     '''valores em falta do ganho médio mensal'''
-    print(faltar_valor_gmm(valor_gmm))
-    return valores_em_falta(valor_gmm)
+    media_valores = dff['Valor GMM'].mean()
+    dff['Valor GMM'] = dff['Valor GMM'].fillna(media_valores)
+
+    # 4. Salvar o DataFrame com os valores imputados num novo CSV
+    dff.to_csv('dados_imputados_gmm.csv', index=False)
 '''
 print(df.describe()) # para saber média, quartis, desvio padrão
 
