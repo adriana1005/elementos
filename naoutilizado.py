@@ -1,3 +1,4 @@
+'''
 import numpy as np
 import pandas as pd
 from scipy.stats import zscore
@@ -136,4 +137,4 @@ def winsorizacaogmm():
     print(df[["Valor GMM", "Valor GMM TRATADO"]].describe())
 
 
-    df.to_csv("dados_outliers_gmm.csv", index=False)
+    df.to_csv("dados_outliers_gmm.csv", index=False)'''
