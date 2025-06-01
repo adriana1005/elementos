@@ -1,5 +1,4 @@
 from recolha import *
-
 from outliers import *
 from analise_preditiva import *
 
@@ -163,7 +162,8 @@ def main():
                                 grafico_media_gmmsup()
                         except ValueError:
                             print('Inseriu um valor não inteiro, tente novamente.')
-
+                elif opcao == 5:
+                    print(f'\033[1;36m No futuro, é possível que a taxa de desistência diminua, que o ganho médio mensal aumente e que aqueles que beneficiam do RSI tendem a ser cada vez menos.\033[m')
             except ValueError:
                 print('Inseriu um valor não inteiro, tente novamente.')
 

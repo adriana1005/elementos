@@ -141,7 +141,7 @@ def winsorizersi(max_infr, min_supr):
     dfp.to_csv('dados_com_zscore21.csv', index=False)
 
 
-def winsorizegmm(max_infg, min_infg):
+def winsorizegmm(max_infg, min_supg):
     def winsorize_by_value(data, lower_bound, upper_bound):
         data = np.array(data)
         data[data < lower_bound] = lower_bound
