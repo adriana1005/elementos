@@ -13,7 +13,7 @@ O objetivo principal é permitir que os dados sejam analisados de forma eficient
 
 ## Estrutura do package
 Para a realização deste package foi necessário seguir estes passos:
-1. **Integração de Dados:** após a recolha, criámos um Excel com todos os dados entre os anos de 2012 e 2022
+1.**Integração de Dados:** após a recolha, criámos um Excel com todos os dados entre os anos de 2012 e 2022
 
 
 2. **Análise Exploratória e Limpeza e Preprocessamento de Dados:**
